@@ -30,5 +30,21 @@
   "full_retraining": false,
   "clean_docker_build": false,
   "hf_uploaded": false,
-  "linux_distributed_regression": "pending explicit authorization to upload source for CPU tests"
+  "linux_distributed_regression": "passed: two-process CPU SFT, resume, and repeatable checkpoint export",
+  "linux_ci": {
+    "date": "2026-09-25",
+    "commit": "91f9473",
+    "run_url": "https://github.com/Alexander-wu/FutureWorlds/actions/runs/36025779096",
+    "runner": "ubuntu-24.04",
+    "tests_run": 19,
+    "tests_passed": 19,
+    "tests_skipped": 0,
+    "seconds": 20.911,
+    "torch": "2.9.1+cpu",
+    "transformers": "4.57.1",
+    "diffusers": "0.35.2",
+    "numpy": "2.5.2",
+    "log_sha256": "533093c5c268d4b468de9a3bf6bbcdea0dbc6ae3985ff81fd0355124e5a30f30",
+    "scope": "Synthetic CPU integration and two-process DDP, not GPU performance or paper-quality reproduction"
+  }
 }

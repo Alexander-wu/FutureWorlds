@@ -13,7 +13,7 @@
 
 FutureWorlds learns action-conditioned robotic world models from alternative predictions. Diverse beam search constructs candidate futures, bounded candidate-specific memory maintains their histories, and **MemSPO** (Memory-Conditioned Search-Guided Policy Optimization) learns from their relative trajectory rewards.
 
-> **Release candidate.** Training, inference and evaluation workflows are implemented. Public checkpoint/data downloads and final licensing are pending. The portable pipeline passes 18 local CPU checks and real-checkpoint first-frame comparisons on three datasets; Linux DDP and full GPU reproduction remain to be validated.
+> **Release candidate.** Training, inference and evaluation workflows are implemented. Public checkpoint/data downloads and final licensing are pending. The portable pipeline passes 19 Linux CPU checks, including two-process DDP, plus real-checkpoint first-frame comparisons on three datasets. Full GPU reproduction remains to be validated.
 
 ## Highlights
 
@@ -123,11 +123,11 @@ USE_TF=0 .venv/bin/python -m unittest discover -s tests -p 'test_*.py' -v
 .venv/bin/python scripts/verify_sources.py
 ```
 
-- **18 local checks pass**, covering search, RGB inference, cache equivalence, SFT recovery, post-training update paths, export and integrity.
+- **19 Linux CPU checks pass**, covering search, RGB inference, cache equivalence, two-process SFT and recovery, post-training update paths, export and integrity.
 - **Real checkpoints:** one fixed sample per dataset; all 80 generated first-frame tokens and decoded float pixels exactly match the original entry point on CPU.
-- **Pending:** Linux DDP regression, full 384-trajectory × 32-frame GPU evaluation, full retraining and clean Docker validation. The macOS distributed test is skipped after a rendezvous timeout.
+- **Pending:** full 384-trajectory × 32-frame GPU evaluation, full retraining and clean Docker validation. The macOS distributed test is skipped after a rendezvous timeout.
 
-[Validation record](provenance/validation.json) · [Real-checkpoint audit](provenance/native_pipeline_validation.json)
+[Linux CI run](https://github.com/Alexander-wu/FutureWorlds/actions/runs/36025779096) · [Validation record](provenance/validation.json) · [Real-checkpoint audit](provenance/native_pipeline_validation.json)
 
 ## Release status
 
@@ -135,7 +135,8 @@ USE_TF=0 .venv/bin/python -m unittest discover -s tests -p 'test_*.py' -v
 - [x] Unified SFT / post-training / evaluation workflows
 - [x] Explicit model variants, cohorts, schedules and checkpoint hashes
 - [x] Model cards and GitHub Pages project site
-- [ ] Linux distributed and full GPU regression
+- [x] Linux CPU distributed training / recovery regression
+- [ ] Full GPU regression
 - [ ] Public Hugging Face model repository and data-access instructions
 - [ ] Final license for original additions, paper link and citation metadata
 

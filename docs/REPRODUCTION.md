@@ -77,7 +77,7 @@ torchrun --standalone --nproc_per_node=16 -m futureworlds train-codec \
 
 ## 5. 当前已验证的范围
 
-- 本地：核心检查、真实原生 codec + 小型随机 backbone 的 RGB 流水线、三种 RL 更新、SFT 恢复、导出及重复执行。双进程 CPU DDP 检查在 macOS 通信初始化超时，Linux 回归待授权运行。
+- 本地：核心检查、真实原生 codec + 小型随机 backbone 的 RGB 流水线、三种 RL 更新、SFT 恢复、导出及重复执行。macOS 跳过分布式检查；GitHub Actions 的 Linux CPU 环境已通过全部 19 项检查，包括双进程 DDP、恢复与导出。
 - 实际服务器：三个数据集各 1 个样本，已整理真实权重；新旧入口首个预测帧的 80 个 token、浮点像素完全相同，未用 GPU。
 - 尚未：新入口的完整 384 × 32 帧 GPU 回归、50k SFT / 全量 RL 重训、干净 Docker 构建、公开权重与数据下载闭环。
 
