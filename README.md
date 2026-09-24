@@ -5,7 +5,7 @@
 
 **Construct diverse futures · Maintain individual histories · Learn from relative quality**
 
-[GitHub repository](https://github.com/Alexander-wu/FutureWorlds) · [中文说明](README.zh-CN.md) · [Reproduction](docs/REPRODUCTION.md) · [Model loading](docs/LOADING.md) · [Project website](https://alexander-wu.github.io/FutureWorlds/) · [Release status](#release-status)
+[GitHub repository](https://github.com/Alexander-wu/FutureWorlds) · [中文说明](README.zh-CN.md) · [Getting started](docs/GETTING_STARTED.md) · [Reproduction](docs/REPRODUCTION.md) · [Model loading](docs/LOADING.md) · [Project website](https://alexander-wu.github.io/FutureWorlds/) · [Release status](#release-status)
 
 </div>
 
@@ -40,9 +40,11 @@ Selected qualitative examples show object appearance, spatial relations and robo
 
 ## Quick start
 
-From the repository root, install dependencies and configure your local assets:
+Clone the repository, install dependencies, and configure your local assets:
 
 ```bash
+git clone https://github.com/Alexander-wu/FutureWorlds.git
+cd FutureWorlds
 ./setup.sh
 cp configs/paths.example.json configs/paths.local.json
 # Edit bundle, data, output, text_model and GPU count.
@@ -111,6 +113,10 @@ tests/                   Core, pipeline, recovery and integrity checks
 [Code tour](docs/CODE_TOUR.md) · [Reproduction guide](docs/REPRODUCTION.md) · [Data format](docs/DATA.md) · [English web guide](site/guides.html)
 
 ## Validation
+
+[![Code checks](https://github.com/Alexander-wu/FutureWorlds/actions/workflows/checks.yml/badge.svg)](https://github.com/Alexander-wu/FutureWorlds/actions/workflows/checks.yml)
+
+Try `python examples/trace_search.py` after installation for an asset-free CPU walkthrough. See [Getting started](docs/GETTING_STARTED.md) for troubleshooting and [Contributing](CONTRIBUTING.md) for development checks.
 
 ```bash
 USE_TF=0 .venv/bin/python -m unittest discover -s tests -p 'test_*.py' -v

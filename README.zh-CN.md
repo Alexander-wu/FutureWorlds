@@ -4,11 +4,13 @@
 
 本目录已包含原生视觉编解码器、多卡训练、断点恢复和三个数据集的固定实验配方，不再只是核心算法摘录。先看 [一键复现指南](docs/REPRODUCTION.md) 和 [代码导航](docs/CODE_TOUR.md)。
 
-> 当前为本地可运行候选版：CPU 集成检查及三数据集真实权重首帧对齐已通过；新入口的全量 GPU 重训 / 384 样本 × 32 帧评测尚未运行。权重已私有整理，尚未发布到 Hugging Face。首次运行仍须提供权重、数据与本机路径，不能在尚无公开资源时声称“下载 ZIP 即自动复现整篇论文”。
+> 当前为已公开的代码候选版：CPU 集成检查及三数据集真实权重首帧对齐已通过；新入口的全量 GPU 重训 / 384 样本 × 32 帧评测尚未运行。权重已私有整理，尚未发布到 Hugging Face。首次运行仍须提供权重、数据与本机路径，不能在尚无公开资源时声称“下载 ZIP 即自动复现整篇论文”。
 
 ## 一次配置，一条命令运行
 
 ```bash
+git clone https://github.com/Alexander-wu/FutureWorlds.git
+cd FutureWorlds
 ./setup.sh
 cp configs/paths.example.json configs/paths.local.json
 # 编辑 paths.local.json：权重、数据、输出、T5 路径和 GPU 数量。

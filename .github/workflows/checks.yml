@@ -1,0 +1,42 @@
+name: Code checks
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['site/**']
+  pull_request:
+    paths-ignore: ['site/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: code-checks-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  cpu-integration:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      USE_TF: '0'
+      USE_FLAX: '0'
+      OMP_NUM_THREADS: '1'
+      HF_HUB_OFFLINE: '1'
+      CUDA_VISIBLE_DEVICES: ''
+    steps:
+      - uses: actions/checkout@v6
+      - name: Verify source inventory
+        run: python3 scripts/verify_sources.py
+      - name: Install CPU test environment
+        run: |
+          python3 -m venv .venv
+          .venv/bin/python -m pip install --upgrade pip
+          .venv/bin/python -m pip install torch==2.9.1 torchvision==0.24.1 --index-url https://download.pytorch.org/whl/cpu
+          .venv/bin/python -m pip install 'transformers==4.57.1' -e '.[full]'
+          .venv/bin/python -m pip check
+      - name: Check command-line entry point
+        run: |
+          .venv/bin/python -m futureworlds --help
+          .venv/bin/python -m futureworlds doctor
+      - name: Run CPU integration and two-process DDP checks
+        run: .venv/bin/python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Run asset-free search example
+        run: .venv/bin/python examples/trace_search.py

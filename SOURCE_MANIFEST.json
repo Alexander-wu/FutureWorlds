@@ -7,6 +7,11 @@
       "bytes": 55
     },
     {
+      "path": ".github/workflows/checks.yml",
+      "sha256": "779c7adeec71d30642a58c935fd4359e016f197feb42ef50e870493ad1d30dbb",
+      "bytes": 1379
+    },
+    {
       "path": ".github/workflows/pages.yml",
       "sha256": "b09d0478c4c480ad9c08176c3f0fd16830fe0670d8d8a7fef955eadeb496aec7",
       "bytes": 833
@@ -17,19 +22,24 @@
       "bytes": 140
     },
     {
+      "path": "CONTRIBUTING.md",
+      "sha256": "02942bfc8307fc61dcc5a894863688e2d4e3037dcd1a547612fbe5702b4bf0c1",
+      "bytes": 1695
+    },
+    {
       "path": "Dockerfile",
       "sha256": "9e78bfa8a50e3f3f51f001a6224df1941d5c55fd3468b21050d8d8db4f276e23",
       "bytes": 297
     },
     {
       "path": "README.md",
-      "sha256": "ef52301b15867482890fceac03677c56d9c5064295858e8c8495247d81436e5b",
-      "bytes": 8435
+      "sha256": "d88c5c52003fa9d33f9c25d4e9eeecda77af80c64b64678f5aeb7cad7632b35c",
+      "bytes": 8951
     },
     {
       "path": "README.zh-CN.md",
-      "sha256": "3b908438618665aa0341a8548fcde6249ac99577b373ead3e862b6920433e43f",
-      "bytes": 4007
+      "sha256": "6f8ffd5a81e721c862553ea013f7367f5a454cfe81d48a83cec79aca11fd71b6",
+      "bytes": 4085
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -210,6 +220,11 @@
       "path": "docs/DATA.md",
       "sha256": "7a2b393bce72d2aafdd40fe12f7ae044b7fdf14d772a474f23b7823e7c80f255",
       "bytes": 2140
+    },
+    {
+      "path": "docs/GETTING_STARTED.md",
+      "sha256": "db2fc3adcde710989c520bb6ebb9dc3d99297cf5c2ca7a7ad215e18c6126afe4",
+      "bytes": 4875
     },
     {
       "path": "docs/GITHUB_PAGES.md",
