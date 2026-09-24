@@ -473,18 +473,18 @@
     },
     {
       "path": "site/guides.html",
-      "sha256": "64f0a8b6ba79fcbbb292024dcf421c38e89198744c31f2517769f83d370b5238",
+      "sha256": "2b0af9f25ccbbed022b3978cb2924c8a6c5b78f104cafc352229e153d8014244",
       "bytes": 8968
     },
     {
       "path": "site/index.html",
-      "sha256": "44c29e09de45848f3e96dc00f2ab59126bcc4ecea7f0c9bfba9af3b4c8560162",
+      "sha256": "d55ab29145d9d8bac7ac71944a9ca511cb8b2c3ee7eac06332417dd67eaa4100",
       "bytes": 18326
     },
     {
       "path": "site/style.css",
-      "sha256": "e54c5333028c1c115465ad88a6f94261c4c2d51e2b05074dd528f22f266f9a31",
-      "bytes": 18971
+      "sha256": "be2baa68219fb38019db58cb6c46f702b78d2b202cc062d62ac2bee09ebe25f1",
+      "bytes": 18970
     },
     {
       "path": "src/futureworlds/__init__.py",
