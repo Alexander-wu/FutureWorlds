@@ -14,7 +14,7 @@ python3 -m http.server 8785 --bind 127.0.0.1 --directory site
 
 ## 发布到 GitHub Pages
 
-代码仓库：https://github.com/Alexander-wu/FutureWorlds。当前正在配置 GitHub Pages，部署完成后记录实际主页地址。
+代码仓库：https://github.com/Alexander-wu/FutureWorlds。GitHub Pages 已启用 GitHub Actions，主页地址：https://alexander-wu.github.io/FutureWorlds/。后续推送 main 的 site/ 修改将自动更新。
 
 1. 把经过确认的 `FutureWorlds/` 内容放入目标代码仓库。建议独立项目仓库，避免覆盖个人主页。
 2. 在仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。

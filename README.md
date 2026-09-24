@@ -5,7 +5,7 @@
 
 **Construct diverse futures · Maintain individual histories · Learn from relative quality**
 
-[GitHub repository](https://github.com/Alexander-wu/FutureWorlds) · [中文说明](README.zh-CN.md) · [Reproduction](docs/REPRODUCTION.md) · [Model loading](docs/LOADING.md) · [Project website source](site/) · [Release status](#release-status)
+[GitHub repository](https://github.com/Alexander-wu/FutureWorlds) · [中文说明](README.zh-CN.md) · [Reproduction](docs/REPRODUCTION.md) · [Model loading](docs/LOADING.md) · [Project website](https://alexander-wu.github.io/FutureWorlds/) · [Release status](#release-status)
 
 </div>
 

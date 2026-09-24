@@ -23,8 +23,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "b35f37fc7ed5bc3c4a11ad49ae740c08d3306d0fcf3637dded8c74f6a3429f9b",
-      "bytes": 8403
+      "sha256": "ef52301b15867482890fceac03677c56d9c5064295858e8c8495247d81436e5b",
+      "bytes": 8435
     },
     {
       "path": "README.zh-CN.md",
@@ -213,8 +213,8 @@
     },
     {
       "path": "docs/GITHUB_PAGES.md",
-      "sha256": "affc4fe1f0d6c57b32735d7000ef1d66c835373e5f15788635efbb5a1440ec41",
-      "bytes": 3331
+      "sha256": "1dd1d659a75dc6932adb25b288f9755c4afeda53a0988ce6f599dd408fe30148",
+      "bytes": 3409
     },
     {
       "path": "docs/HUGGINGFACE_RELEASE.md",
@@ -333,8 +333,8 @@
     },
     {
       "path": "provenance/release_status.json",
-      "sha256": "cd13b326131dd613a72ef967073d8590effb4c4b570e0c508b4d0b8e4d5600e6",
-      "bytes": 888
+      "sha256": "3fd032692932d277b0539e049c24e0d3e780d25c1764bb0182ee9a73503949a8",
+      "bytes": 949
     },
     {
       "path": "provenance/validation.json",

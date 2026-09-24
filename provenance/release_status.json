@@ -16,5 +16,6 @@
   "cpu_checks_skipped": 1,
   "native_first_frame_exact_matches": 3,
   "full_gpu_reproduction_verified": false,
-  "repository": "https://github.com/Alexander-wu/FutureWorlds"
+  "repository": "https://github.com/Alexander-wu/FutureWorlds",
+  "website": "https://alexander-wu.github.io/FutureWorlds/"
 }
