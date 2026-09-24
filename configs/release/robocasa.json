@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "dataset": "robocasa",
+  "status": "staged_research_preview",
+  "codec": "robocasa/codec",
+  "action_ranges": "robocasa/preprocessing/action_ranges.pt",
+  "action_tokens_per_step": 52,
+  "text_conditioning": {
+    "enabled": true,
+    "repo_id": "google-t5/t5-base",
+    "revision": "a9723ea7f1b39c1eae772870f3b547bf6ef7e6c1",
+    "layers": [
+      3,
+      7,
+      11
+    ],
+    "inner": 256,
+    "width": 768,
+    "max_tokens": 128,
+    "bundled": false
+  },
+  "initial_observations": 2,
+  "memory": {
+    "anchor_states": 1,
+    "recent_states": 6,
+    "ground_truth_refresh": false
+  },
+  "evaluation": {
+    "strategy": "per_frame_beam",
+    "beam_width": 4,
+    "horizon": 32,
+    "visual_tokens_per_frame": 80,
+    "valid_visual_vocab": 4375
+  },
+  "variants": {
+    "main": {
+      "path": "robocasa/models/main",
+      "method": "MemSPO",
+      "updates": 400,
+      "reward": "R0",
+      "purpose": "paper_main_table",
+      "text": true
+    },
+    "sft": {
+      "path": "robocasa/models/sft",
+      "method": "SFT",
+      "updates": 50000,
+      "reward": null,
+      "purpose": "matched_ablation",
+      "text": true
+    },
+    "memspo200": {
+      "path": "robocasa/models/memspo200",
+      "method": "MemSPO",
+      "updates": 200,
+      "reward": "R0",
+      "purpose": "matched_ablation",
+      "text": true
+    },
+    "grpo200": {
+      "path": "robocasa/models/grpo200",
+      "method": "GRPO",
+      "updates": 200,
+      "reward": "R0",
+      "purpose": "matched_ablation",
+      "text": true
+    },
+    "ordinary200": {
+      "path": "robocasa/models/ordinary200",
+      "method": "OrdinaryBeam",
+      "updates": 200,
+      "reward": "R0",
+      "purpose": "matched_ablation",
+      "text": true
+    }
+  }
+}

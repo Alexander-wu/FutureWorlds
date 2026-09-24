@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "futureworlds"
+version = "0.2.0.dev0"
+description = "Memory-conditioned search and post-training for robotic world models"
+requires-python = ">=3.9"
+dependencies = ["numpy", "torch>=2.1", "transformers>=4.45,<5", "safetensors"]
+
+[project.optional-dependencies]
+hub = ["huggingface_hub>=0.34"]
+full = ["diffusers==0.35.2", "lpips==0.1.4", "piqa==1.3.2", "einops==0.8.1", "Pillow>=10", "protobuf>=4", "sentencepiece", "torchvision", "huggingface_hub>=0.34"]
+
+[project.scripts]
+futureworlds = "futureworlds.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

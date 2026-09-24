@@ -1,0 +1,553 @@
+{
+  "schema_version": 1,
+  "status": "verified_weights_pending_portable_full_pipeline",
+  "date": "2026-09-24",
+  "components": [
+    {
+      "component": "rt1/main",
+      "files": [
+        {
+          "path": "rt1/models/main/model.safetensors",
+          "bytes": 508419080,
+          "sha256": "9f5cde05fc628a550fa321343573c66919eb72338438e37883cecc45bc28d068",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "rt1/models/main/text_adapters.safetensors",
+          "bytes": 9476032,
+          "sha256": "c426c478c690679230b613401b59f8d17bc7863b33450ba12964d42722b489cd",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "rt1/models/main/config.json",
+          "bytes": 695,
+          "sha256": "b78291f41d3c8cfaa996cf7cf8402fac3cf33dc316b814f61efdabb4f1822605",
+          "hash_scope": "source_file"
+        },
+        {
+          "path": "rt1/models/main/generation_config.json",
+          "bytes": 117,
+          "sha256": "59078ac9810218a5538a78fb3818208cadbe4c7df503940282c91fb33ca8252f",
+          "hash_scope": "source_file"
+        }
+      ],
+      "source_file_bytes": 517895924,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "rt1/sft",
+      "files": [
+        {
+          "path": "rt1/models/sft/model.safetensors",
+          "bytes": 508419080,
+          "sha256": "072b972d52a73e1a7c28b4dae7385dcd434dca57634c66f9742cccc1337f8cc7",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "rt1/models/sft/text_adapters.safetensors",
+          "bytes": 9476032,
+          "sha256": "006511fd5bbfdeb2f6975695415243b5cec4912517c7f187e65864a48ecfcf07",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "rt1/models/sft/config.json",
+          "bytes": 695,
+          "sha256": "b78291f41d3c8cfaa996cf7cf8402fac3cf33dc316b814f61efdabb4f1822605",
+          "hash_scope": "source_file"
+        },
+        {
+          "path": "rt1/models/sft/generation_config.json",
+          "bytes": 117,
+          "sha256": "59078ac9810218a5538a78fb3818208cadbe4c7df503940282c91fb33ca8252f",
+          "hash_scope": "source_file"
+        }
+      ],
+      "source_file_bytes": 517895924,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "rt1/memspo200",
+      "files": [
+        {
+          "path": "rt1/models/memspo200/model.safetensors",
+          "bytes": 508419080,
+          "sha256": "dcaf1123b9c7baed05bb74489906523bb2c29fbee4bafc3d06b1dca519985917",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "rt1/models/memspo200/text_adapters.safetensors",
+          "bytes": 9476032,
+          "sha256": "0ff10442a71858b8d87296539843c34427743987bce486790b1032eb013df491",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "rt1/models/memspo200/config.json",
+          "bytes": 695,
+          "sha256": "b78291f41d3c8cfaa996cf7cf8402fac3cf33dc316b814f61efdabb4f1822605",
+          "hash_scope": "source_file"
+        },
+        {
+          "path": "rt1/models/memspo200/generation_config.json",
+          "bytes": 117,
+          "sha256": "59078ac9810218a5538a78fb3818208cadbe4c7df503940282c91fb33ca8252f",
+          "hash_scope": "source_file"
+        }
+      ],
+      "source_file_bytes": 517895924,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "rt1/grpo200",
+      "files": [
+        {
+          "path": "rt1/models/grpo200/model.safetensors",
+          "bytes": 508419080,
+          "sha256": "be5c61ec234336324d8d0bbb2c6cd020be580da6d055f900c15767c5d0170e9e",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "rt1/models/grpo200/text_adapters.safetensors",
+          "bytes": 9476032,
+          "sha256": "9b1912039edd5e6806e5cf156d9e45dd5ac92ef81a44c89d4d883f315d51d398",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "rt1/models/grpo200/config.json",
+          "bytes": 695,
+          "sha256": "b78291f41d3c8cfaa996cf7cf8402fac3cf33dc316b814f61efdabb4f1822605",
+          "hash_scope": "source_file"
+        },
+        {
+          "path": "rt1/models/grpo200/generation_config.json",
+          "bytes": 117,
+          "sha256": "59078ac9810218a5538a78fb3818208cadbe4c7df503940282c91fb33ca8252f",
+          "hash_scope": "source_file"
+        }
+      ],
+      "source_file_bytes": 517895924,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "rt1/ordinary200",
+      "files": [
+        {
+          "path": "rt1/models/ordinary200/model.safetensors",
+          "bytes": 508419080,
+          "sha256": "efb718ff37f3c1ecf89e48912c9a3013121fbbec663cf43859a96fe9db925981",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "rt1/models/ordinary200/text_adapters.safetensors",
+          "bytes": 9476032,
+          "sha256": "188351646fe1aa823b5cffe54f73ddf038e7197b0411054d0f1c1db297930905",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "rt1/models/ordinary200/config.json",
+          "bytes": 695,
+          "sha256": "b78291f41d3c8cfaa996cf7cf8402fac3cf33dc316b814f61efdabb4f1822605",
+          "hash_scope": "source_file"
+        },
+        {
+          "path": "rt1/models/ordinary200/generation_config.json",
+          "bytes": 117,
+          "sha256": "59078ac9810218a5538a78fb3818208cadbe4c7df503940282c91fb33ca8252f",
+          "hash_scope": "source_file"
+        }
+      ],
+      "source_file_bytes": 517895924,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "rt1/codec",
+      "files": [
+        {
+          "path": "rt1/codec/diffusion_pytorch_model.safetensors",
+          "bytes": 517850360,
+          "sha256": "7c8194f83617137ef0a002a15d60c6ee222bcd2442afb4ed704a7918496cc073",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "rt1/codec/config.json",
+          "bytes": 844,
+          "sha256": "9739df1c8157400c8efc54e67370f1e6be9db074c059ef25b26e475fc0fe9d9d",
+          "hash_scope": "source_file"
+        }
+      ],
+      "source_file_bytes": 517851204,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "rt1/action_ranges",
+      "files": [
+        {
+          "path": "rt1/preprocessing/frac_action_ranges.pth",
+          "bytes": 1274,
+          "sha256": "7b22a29492c55958ab63b16c91a6825b0c844e06afb4107f6fccf8f3d437db60",
+          "hash_scope": "release_file"
+        }
+      ],
+      "source_file_bytes": 1274,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "bridge/main",
+      "files": [
+        {
+          "path": "bridge/models/main/model.safetensors",
+          "bytes": 508419080,
+          "sha256": "e7948465e27cdcdc74df9026c71d28e9cd5dbe58a36a44b0dd6acf244b92c089",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "bridge/models/main/config.json",
+          "bytes": 695,
+          "sha256": "b78291f41d3c8cfaa996cf7cf8402fac3cf33dc316b814f61efdabb4f1822605",
+          "hash_scope": "source_file"
+        },
+        {
+          "path": "bridge/models/main/generation_config.json",
+          "bytes": 117,
+          "sha256": "59078ac9810218a5538a78fb3818208cadbe4c7df503940282c91fb33ca8252f",
+          "hash_scope": "source_file"
+        }
+      ],
+      "source_file_bytes": 508419892,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "bridge/sft",
+      "files": [
+        {
+          "path": "bridge/models/sft/model.safetensors",
+          "bytes": 508419080,
+          "sha256": "ad08d7cd5c8dbddf24f1f8840833948a810ab84324ff0bb8f1b42a35c6b75d9c",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "bridge/models/sft/config.json",
+          "bytes": 695,
+          "sha256": "b78291f41d3c8cfaa996cf7cf8402fac3cf33dc316b814f61efdabb4f1822605",
+          "hash_scope": "source_file"
+        },
+        {
+          "path": "bridge/models/sft/generation_config.json",
+          "bytes": 117,
+          "sha256": "59078ac9810218a5538a78fb3818208cadbe4c7df503940282c91fb33ca8252f",
+          "hash_scope": "source_file"
+        }
+      ],
+      "source_file_bytes": 508419892,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "bridge/memspo200",
+      "files": [
+        {
+          "path": "bridge/models/memspo200/model.safetensors",
+          "bytes": 508419080,
+          "sha256": "e578cffac8d7a4cff05d858f70052648186c675d613d91ed05dd085a4a534877",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "bridge/models/memspo200/config.json",
+          "bytes": 695,
+          "sha256": "b78291f41d3c8cfaa996cf7cf8402fac3cf33dc316b814f61efdabb4f1822605",
+          "hash_scope": "source_file"
+        },
+        {
+          "path": "bridge/models/memspo200/generation_config.json",
+          "bytes": 117,
+          "sha256": "59078ac9810218a5538a78fb3818208cadbe4c7df503940282c91fb33ca8252f",
+          "hash_scope": "source_file"
+        }
+      ],
+      "source_file_bytes": 508419892,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "bridge/grpo200",
+      "files": [
+        {
+          "path": "bridge/models/grpo200/model.safetensors",
+          "bytes": 508419080,
+          "sha256": "d39efd79f78a6a8aa4c22218253421402abe992d7be31352884b7a04b84450df",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "bridge/models/grpo200/config.json",
+          "bytes": 695,
+          "sha256": "b78291f41d3c8cfaa996cf7cf8402fac3cf33dc316b814f61efdabb4f1822605",
+          "hash_scope": "source_file"
+        },
+        {
+          "path": "bridge/models/grpo200/generation_config.json",
+          "bytes": 117,
+          "sha256": "59078ac9810218a5538a78fb3818208cadbe4c7df503940282c91fb33ca8252f",
+          "hash_scope": "source_file"
+        }
+      ],
+      "source_file_bytes": 508419892,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "bridge/ordinary200",
+      "files": [
+        {
+          "path": "bridge/models/ordinary200/model.safetensors",
+          "bytes": 508419080,
+          "sha256": "ecc7de4022089278f256373292883847db19dd557e3aa4374bdeff269b9ff7e5",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "bridge/models/ordinary200/config.json",
+          "bytes": 695,
+          "sha256": "b78291f41d3c8cfaa996cf7cf8402fac3cf33dc316b814f61efdabb4f1822605",
+          "hash_scope": "source_file"
+        },
+        {
+          "path": "bridge/models/ordinary200/generation_config.json",
+          "bytes": 117,
+          "sha256": "59078ac9810218a5538a78fb3818208cadbe4c7df503940282c91fb33ca8252f",
+          "hash_scope": "source_file"
+        }
+      ],
+      "source_file_bytes": 508419892,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "bridge/codec",
+      "files": [
+        {
+          "path": "bridge/codec/diffusion_pytorch_model.safetensors",
+          "bytes": 517850360,
+          "sha256": "0dfb0bfe8543da0b27998ff685ad41d7e44d05fa003dfb1412006d045512db64",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "bridge/codec/config.json",
+          "bytes": 950,
+          "sha256": "454639fea3d9ee29248fcdafc04f93646263773bb5cfbe98a250decd1dc503b7",
+          "hash_scope": "source_file"
+        }
+      ],
+      "source_file_bytes": 517851310,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "bridge/action_ranges",
+      "files": [
+        {
+          "path": "bridge/preprocessing/action_ranges.pth",
+          "bytes": 829,
+          "sha256": "4492b53758cea8b3d4cb01e01ddf32d9d4bf31095fb3ca768a2d3ff631be8b15",
+          "hash_scope": "release_file"
+        }
+      ],
+      "source_file_bytes": 829,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "robocasa/main",
+      "files": [
+        {
+          "path": "robocasa/models/main/model.safetensors",
+          "bytes": 508419080,
+          "sha256": "a0d4420b480f44f9f1f970edbfc96a95adb5e428dc6b49ca3d1b2c61fddb5807",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "robocasa/models/main/text_adapters.safetensors",
+          "bytes": 9476032,
+          "sha256": "92ad8666771696ee22f6c7aaee12d9bd8bd6195569298defb1b89b3bcba11d1e",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "robocasa/models/main/config.json",
+          "bytes": 695,
+          "sha256": "b78291f41d3c8cfaa996cf7cf8402fac3cf33dc316b814f61efdabb4f1822605",
+          "hash_scope": "source_file"
+        },
+        {
+          "path": "robocasa/models/main/generation_config.json",
+          "bytes": 117,
+          "sha256": "59078ac9810218a5538a78fb3818208cadbe4c7df503940282c91fb33ca8252f",
+          "hash_scope": "source_file"
+        }
+      ],
+      "source_file_bytes": 517895924,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "robocasa/sft",
+      "files": [
+        {
+          "path": "robocasa/models/sft/model.safetensors",
+          "bytes": 508419080,
+          "sha256": "a86d465e8b5c1cc824238b010aed477ea61d6d8307102135b886b32ca065463c",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "robocasa/models/sft/text_adapters.safetensors",
+          "bytes": 9476032,
+          "sha256": "ef8a06e8ba6451ad1873d9476400c04ae581ce8e654ca77958f7cc56d9f6b380",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "robocasa/models/sft/config.json",
+          "bytes": 695,
+          "sha256": "b78291f41d3c8cfaa996cf7cf8402fac3cf33dc316b814f61efdabb4f1822605",
+          "hash_scope": "source_file"
+        },
+        {
+          "path": "robocasa/models/sft/generation_config.json",
+          "bytes": 117,
+          "sha256": "59078ac9810218a5538a78fb3818208cadbe4c7df503940282c91fb33ca8252f",
+          "hash_scope": "source_file"
+        }
+      ],
+      "source_file_bytes": 517895924,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "robocasa/memspo200",
+      "files": [
+        {
+          "path": "robocasa/models/memspo200/model.safetensors",
+          "bytes": 508419080,
+          "sha256": "6193281a747b6155cb32b7e4e3844f1ff05ac0e07d9df4cd3f11bba4c8711d92",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "robocasa/models/memspo200/text_adapters.safetensors",
+          "bytes": 9476032,
+          "sha256": "2c9f8ac2cc6c128fc29305546a29effbd99250f47905e7711a8330a397bfd7c0",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "robocasa/models/memspo200/config.json",
+          "bytes": 695,
+          "sha256": "b78291f41d3c8cfaa996cf7cf8402fac3cf33dc316b814f61efdabb4f1822605",
+          "hash_scope": "source_file"
+        },
+        {
+          "path": "robocasa/models/memspo200/generation_config.json",
+          "bytes": 117,
+          "sha256": "59078ac9810218a5538a78fb3818208cadbe4c7df503940282c91fb33ca8252f",
+          "hash_scope": "source_file"
+        }
+      ],
+      "source_file_bytes": 517895924,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "robocasa/grpo200",
+      "files": [
+        {
+          "path": "robocasa/models/grpo200/model.safetensors",
+          "bytes": 508419080,
+          "sha256": "af36ba44677963a0de2753dcf933c46f616505792fe4d6668138adc2d8e59720",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "robocasa/models/grpo200/text_adapters.safetensors",
+          "bytes": 9476032,
+          "sha256": "eba7ba8715d82c79f8909a8d65cf3ede5f1874b0963efcd3a351f2f8ca13633c",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "robocasa/models/grpo200/config.json",
+          "bytes": 695,
+          "sha256": "b78291f41d3c8cfaa996cf7cf8402fac3cf33dc316b814f61efdabb4f1822605",
+          "hash_scope": "source_file"
+        },
+        {
+          "path": "robocasa/models/grpo200/generation_config.json",
+          "bytes": 117,
+          "sha256": "59078ac9810218a5538a78fb3818208cadbe4c7df503940282c91fb33ca8252f",
+          "hash_scope": "source_file"
+        }
+      ],
+      "source_file_bytes": 517895924,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "robocasa/ordinary200",
+      "files": [
+        {
+          "path": "robocasa/models/ordinary200/model.safetensors",
+          "bytes": 508419080,
+          "sha256": "486a6c324466839121a4fb392450b1093e98d7482dbb9b6c794baf4ebb7b1519",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "robocasa/models/ordinary200/text_adapters.safetensors",
+          "bytes": 9476032,
+          "sha256": "c4fc6d76fe21e5687fa7dd4cb2c82da0b3c52554490be6211e22aa4fabc85900",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "robocasa/models/ordinary200/config.json",
+          "bytes": 695,
+          "sha256": "b78291f41d3c8cfaa996cf7cf8402fac3cf33dc316b814f61efdabb4f1822605",
+          "hash_scope": "source_file"
+        },
+        {
+          "path": "robocasa/models/ordinary200/generation_config.json",
+          "bytes": 117,
+          "sha256": "59078ac9810218a5538a78fb3818208cadbe4c7df503940282c91fb33ca8252f",
+          "hash_scope": "source_file"
+        }
+      ],
+      "source_file_bytes": 517895924,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "robocasa/codec",
+      "files": [
+        {
+          "path": "robocasa/codec/diffusion_pytorch_model.safetensors",
+          "bytes": 517850360,
+          "sha256": "4ea6133eae9d3deba4fc546ac7d0cb318363d0d79372b29a8e7d1a753023b77d",
+          "hash_scope": "release_file"
+        },
+        {
+          "path": "robocasa/codec/config.json",
+          "bytes": 962,
+          "sha256": "1a9021f13728dc1f925d611498bfbafd5a8f30eacbf6fd301a5ee7c3a0a4be43",
+          "hash_scope": "source_file"
+        }
+      ],
+      "source_file_bytes": 517851322,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    },
+    {
+      "component": "robocasa/action_ranges",
+      "files": [
+        {
+          "path": "robocasa/preprocessing/action_ranges.pt",
+          "bytes": 2003,
+          "sha256": "55531c0e5296d01b8eb78aa941b422bde30e80e458a24d362f874671f2dbfaf4",
+          "hash_scope": "release_file"
+        }
+      ],
+      "source_file_bytes": 2003,
+      "verified": "fresh_cpu_sha256_2026-09-24"
+    }
+  ],
+  "external_dependencies": [
+    {
+      "repo_id": "google-t5/t5-base",
+      "revision": "a9723ea7f1b39c1eae772870f3b547bf6ef7e6c1",
+      "used_by": [
+        "rt1",
+        "robocasa"
+      ],
+      "purpose": "frozen text encoder",
+      "bundled": false
+    }
+  ],
+  "primary_model_count": 3,
+  "predictor_variant_count": 15,
+  "codec_count": 3
+}

@@ -1,0 +1,243 @@
+{
+  "title": "32-frame action-conditioned video prediction",
+  "trajectories_per_dataset": 128,
+  "source": "Manuscript Table 1",
+  "source_sha256": "e262c938da80c31e0b5a3c26a2bc0cf922e459d5cce4b7db2d050d6c110b53b8",
+  "note": "Reported manuscript results; not a rerun of the newly consolidated pipeline. Some baseline results are supplied by the project author from another server.",
+  "methods": [
+    {
+      "method": "FitVid",
+      "RT-1": {
+        "psnr": 18.71,
+        "ssim": 0.5916,
+        "lpips": 0.475
+      },
+      "BridgeV2": {
+        "psnr": 17.09,
+        "ssim": 0.6072,
+        "lpips": 0.5235
+      },
+      "RoboCasa": {
+        "psnr": 13.5,
+        "ssim": 0.5422,
+        "lpips": 0.5655
+      }
+    },
+    {
+      "method": "iVideoGPT",
+      "RT-1": {
+        "psnr": 15.96,
+        "ssim": 0.5571,
+        "lpips": 0.3833
+      },
+      "BridgeV2": {
+        "psnr": 20.06,
+        "ssim": 0.7791,
+        "lpips": 0.1899
+      },
+      "RoboCasa": {
+        "psnr": 16.67,
+        "ssim": 0.7187,
+        "lpips": 0.2366
+      }
+    },
+    {
+      "method": "IRASim",
+      "RT-1": {
+        "psnr": 16.83,
+        "ssim": 0.5936,
+        "lpips": 0.3474
+      },
+      "BridgeV2": {
+        "psnr": 17.39,
+        "ssim": 0.7094,
+        "lpips": 0.2524
+      },
+      "RoboCasa": {
+        "psnr": 13.55,
+        "ssim": 0.5834,
+        "lpips": 0.3706
+      }
+    },
+    {
+      "method": "Vid2World",
+      "RT-1": {
+        "psnr": 19.03,
+        "ssim": 0.721,
+        "lpips": 0.196
+      },
+      "BridgeV2": {
+        "psnr": 18.92,
+        "ssim": 0.711,
+        "lpips": 0.188
+      },
+      "RoboCasa": {
+        "psnr": 15.4,
+        "ssim": 0.7,
+        "lpips": 0.2287
+      }
+    },
+    {
+      "method": "Ctrl-World",
+      "RT-1": {
+        "psnr": 19.11,
+        "ssim": 0.711,
+        "lpips": 0.2522
+      },
+      "BridgeV2": {
+        "psnr": 18.38,
+        "ssim": 0.6932,
+        "lpips": 0.2621
+      },
+      "RoboCasa": {
+        "psnr": 15.55,
+        "ssim": 0.7035,
+        "lpips": 0.2686
+      }
+    },
+    {
+      "method": "DriftWorld",
+      "RT-1": {
+        "psnr": 20.54,
+        "ssim": 0.741,
+        "lpips": 0.2595
+      },
+      "BridgeV2": {
+        "psnr": 20.32,
+        "ssim": 0.7429,
+        "lpips": 0.2379
+      },
+      "RoboCasa": {
+        "psnr": 16.5,
+        "ssim": 0.72,
+        "lpips": 0.2891
+      }
+    },
+    {
+      "method": "WEAVER",
+      "RT-1": {
+        "psnr": 19.74,
+        "ssim": 0.7617,
+        "lpips": 0.2321
+      },
+      "BridgeV2": {
+        "psnr": 18.74,
+        "ssim": 0.7447,
+        "lpips": 0.2476
+      },
+      "RoboCasa": {
+        "psnr": 14.62,
+        "ssim": 0.7136,
+        "lpips": 0.2726
+      }
+    },
+    {
+      "method": "RLVR-World",
+      "RT-1": {
+        "psnr": 19.47,
+        "ssim": 0.736,
+        "lpips": 0.182
+      },
+      "BridgeV2": {
+        "psnr": 19.06,
+        "ssim": 0.721,
+        "lpips": 0.178
+      },
+      "RoboCasa": {
+        "psnr": 15.8,
+        "ssim": 0.71,
+        "lpips": 0.2017
+      }
+    },
+    {
+      "method": "PersistWorld",
+      "RT-1": {
+        "psnr": 18.77,
+        "ssim": 0.6995,
+        "lpips": 0.2717
+      },
+      "BridgeV2": {
+        "psnr": 19.07,
+        "ssim": 0.7154,
+        "lpips": 0.2408
+      },
+      "RoboCasa": {
+        "psnr": 15.61,
+        "ssim": 0.7112,
+        "lpips": 0.2639
+      }
+    },
+    {
+      "method": "Wan2.2-TI2V-5B",
+      "RT-1": {
+        "psnr": 18.42,
+        "ssim": 0.7058,
+        "lpips": 0.2478
+      },
+      "BridgeV2": {
+        "psnr": 16.35,
+        "ssim": 0.6889,
+        "lpips": 0.2568
+      },
+      "RoboCasa": {
+        "psnr": 14.37,
+        "ssim": 0.6906,
+        "lpips": 0.2711
+      }
+    },
+    {
+      "method": "Cosmos-Predict2.5-2B",
+      "RT-1": {
+        "psnr": 17.77,
+        "ssim": 0.6765,
+        "lpips": 0.2889
+      },
+      "BridgeV2": {
+        "psnr": 18.98,
+        "ssim": 0.7799,
+        "lpips": 0.187
+      },
+      "RoboCasa": {
+        "psnr": 14.3,
+        "ssim": 0.6802,
+        "lpips": 0.2916
+      }
+    },
+    {
+      "method": "DreamDojo-2B",
+      "RT-1": {
+        "psnr": 18.47,
+        "ssim": 0.7152,
+        "lpips": 0.266
+      },
+      "BridgeV2": {
+        "psnr": 16.95,
+        "ssim": 0.7461,
+        "lpips": 0.2563
+      },
+      "RoboCasa": {
+        "psnr": 13.92,
+        "ssim": 0.6349,
+        "lpips": 0.3278
+      }
+    },
+    {
+      "method": "FutureWorlds",
+      "RT-1": {
+        "psnr": 22.47,
+        "ssim": 0.8026,
+        "lpips": 0.1551
+      },
+      "BridgeV2": {
+        "psnr": 22.03,
+        "ssim": 0.7968,
+        "lpips": 0.1409
+      },
+      "RoboCasa": {
+        "psnr": 18.47,
+        "ssim": 0.7659,
+        "lpips": 0.1833
+      }
+    }
+  ]
+}

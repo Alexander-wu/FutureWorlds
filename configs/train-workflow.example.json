@@ -1,0 +1,20 @@
+{
+  "bundle": "/path/to/futureworlds_weights",
+  "data": "/path/to/futureworlds_data",
+  "output": "/path/to/retraining_results",
+  "text_model": "/path/to/google-t5-base",
+  "gpus": 8,
+  "sources": {
+    "rt1": {
+      "train_manifest": "/path/to/rt1/train_windows.jsonl",
+      "manifest": "/path/to/rt1/dev_windows.jsonl"
+    }
+  },
+  "training": {
+    "dataset": "rt1",
+    "mode": "sft+post",
+    "method": "memspo",
+    "main_table": true,
+    "initial_checkpoint": "/path/to/rt1-world-model-multi-step-base"
+  }
+}

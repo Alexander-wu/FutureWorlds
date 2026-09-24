@@ -1,0 +1,750 @@
+{
+  "scope": "FutureWorlds public code release candidate with project website; weights and data published separately; full GPU validation pending",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "sha256": "1ec1cdd250c19079bfc29c27ffe6e64c9acc36884b51ef31feec10f2b0209765",
+      "bytes": 55
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "sha256": "b09d0478c4c480ad9c08176c3f0fd16830fe0670d8d8a7fef955eadeb496aec7",
+      "bytes": 833
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "90bf9b09568b0fe06e630ab915a10969bdc8100df15ce31691f3afac9e56dd62",
+      "bytes": 140
+    },
+    {
+      "path": "Dockerfile",
+      "sha256": "9e78bfa8a50e3f3f51f001a6224df1941d5c55fd3468b21050d8d8db4f276e23",
+      "bytes": 297
+    },
+    {
+      "path": "README.md",
+      "sha256": "b35f37fc7ed5bc3c4a11ad49ae740c08d3306d0fcf3637dded8c74f6a3429f9b",
+      "bytes": 8403
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "3b908438618665aa0341a8548fcde6249ac99577b373ead3e862b6920433e43f",
+      "bytes": 4007
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "eaf10229358832154aedba450a4818dcd9fd10b5bc465c56d29e4a032e4d1044",
+      "bytes": 1470
+    },
+    {
+      "path": "configs/cohorts/bridge_128.json",
+      "sha256": "1e541ae99a532ef678616054aaf8d361ce1ce8c5f9a3341cd812599c44771c2f",
+      "bytes": 3075
+    },
+    {
+      "path": "configs/cohorts/robocasa_128.json",
+      "sha256": "2f5410ab3fa81b0f4416af335d192b852865b2be4d7df821ad3f0f71be018cde",
+      "bytes": 10627
+    },
+    {
+      "path": "configs/cohorts/rt1_128.json",
+      "sha256": "caab61bcc7a8dde328444da56a895f9b61f9346f28e22fe1396798670ef4ef70",
+      "bytes": 9603
+    },
+    {
+      "path": "configs/matched_ablation.json",
+      "sha256": "e9e81b89eac4fbe60a144730f5d322530ae5ae5b5c55f503feac031744d4626c",
+      "bytes": 734
+    },
+    {
+      "path": "configs/paper_main_table.json",
+      "sha256": "b954e97a2343bb38e0219a2b4f837df3e1b4e0e6da5f81d8a7078cd49c7050c4",
+      "bytes": 1615
+    },
+    {
+      "path": "configs/paths.example.json",
+      "sha256": "7e2dd77a09cb3e0f0fcec52cca7c79ca719c6cd3dbe4524320b8230c570b28f2",
+      "bytes": 448
+    },
+    {
+      "path": "configs/recipes/main-table.json",
+      "sha256": "4ee272a3fe7f4aa97d22ae8eeabea14e2129d3769e810aad47ffeed2cb937048",
+      "bytes": 595
+    },
+    {
+      "path": "configs/recipes/matched-200.json",
+      "sha256": "b81683d5966080bf2dde1f19adfed8c9a666a785d5582b2d26a5ee196a101624",
+      "bytes": 648
+    },
+    {
+      "path": "configs/recipes/memory.json",
+      "sha256": "9f1f264c8594be6258007cd35d1438b52eb9f4c7816540f096bd76bd4addb3aa",
+      "bytes": 627
+    },
+    {
+      "path": "configs/release/bridge.json",
+      "sha256": "1dcd2980ddc3a903e7cf515e51be7c1addcb4614b3c9ec9aca36f986a57772b7",
+      "bytes": 1523
+    },
+    {
+      "path": "configs/release/robocasa.json",
+      "sha256": "1584e877e1b47239e53742dd898249de0aaee9bd91dbe354426e484e259da8d6",
+      "bytes": 1759
+    },
+    {
+      "path": "configs/release/rt1.json",
+      "sha256": "06584370456a83520812b39ddeb5d1299b54beea9f42bb41ab6c42ffb8a1a86a",
+      "bytes": 1724
+    },
+    {
+      "path": "configs/schedules/bridge_posttraining.json",
+      "sha256": "5be3fb9d7ce3497e813358d8ffff4a4a2231aecaf016cc1d221cb5a3ab2e2096",
+      "bytes": 994803
+    },
+    {
+      "path": "configs/schedules/robocasa_posttraining.json",
+      "sha256": "6d8442e1a58946e36cb57aa0d55643f82591a5cf059e9b069e340eacaf76e7f9",
+      "bytes": 792003
+    },
+    {
+      "path": "configs/schedules/rt1_posttraining.json",
+      "sha256": "26b85ce75fedf71afdf3d777a4b31438ff3ab061cab0b51e43427f3ef9fb777b",
+      "bytes": 728003
+    },
+    {
+      "path": "configs/train-workflow.example.json",
+      "sha256": "103ac9441f726813dc96200d0e5ae3f81a73c2a4b4b8e586984573076495d030",
+      "bytes": 521
+    },
+    {
+      "path": "configs/train/bridge_codec.json",
+      "sha256": "0e2b739efe8f1da90c30fb1f3f81fbf102f015544d4f7ff22cd65dd3c49bac61",
+      "bytes": 1824
+    },
+    {
+      "path": "configs/train/bridge_grpo.json",
+      "sha256": "d0c5e8b1721bdc24be5c78dbc980ba70887747d825c6d7cc1176cae411ea9c12",
+      "bytes": 635
+    },
+    {
+      "path": "configs/train/bridge_main.json",
+      "sha256": "9b6b4ea7c92f339a616f15663070e3757233d95275a374b9c50c27f3ecabd934",
+      "bytes": 816
+    },
+    {
+      "path": "configs/train/bridge_memspo.json",
+      "sha256": "9b1f9c4d963936db55d299a8865f74c0b8248bdfcb7d008c574c51dc7d61c6e2",
+      "bytes": 639
+    },
+    {
+      "path": "configs/train/bridge_ordinary.json",
+      "sha256": "c3c134e5c8769be0b91ceecfc49686589a0dfcad2b73e650f05a2f72c663436e",
+      "bytes": 643
+    },
+    {
+      "path": "configs/train/bridge_sft.json",
+      "sha256": "b79dec508491c4232e5fd1a5cf030c25024c27cf73edbbc98a7a0980d4040605",
+      "bytes": 751
+    },
+    {
+      "path": "configs/train/robocasa_codec.json",
+      "sha256": "e50a4001577915e91745940a81d043a9e235fb79ab4209472f3a2d6933b2f219",
+      "bytes": 1796
+    },
+    {
+      "path": "configs/train/robocasa_grpo.json",
+      "sha256": "61afedf5f14b877b6210106631600b1c83ad22ad3d21f5ac10346b578f6b91a0",
+      "bytes": 645
+    },
+    {
+      "path": "configs/train/robocasa_main.json",
+      "sha256": "d19d1ba66f37cffb746f31b24dfa4472e79cfd59dd2b900fbc48b026d1160f7b",
+      "bytes": 649
+    },
+    {
+      "path": "configs/train/robocasa_memspo.json",
+      "sha256": "04cd1dd6380ead19550d7ba90857d277387f01acf1556bcbecb1eda335eda43f",
+      "bytes": 649
+    },
+    {
+      "path": "configs/train/robocasa_ordinary.json",
+      "sha256": "1a214f5c73e9828276d08c938f10f18dcba52753df1a9f0773c613d28256ffb6",
+      "bytes": 653
+    },
+    {
+      "path": "configs/train/robocasa_sft.json",
+      "sha256": "4a694b5774ecc242fb250cf6df294fa5271a04a75fd007263ac9f7a7163c89b1",
+      "bytes": 759
+    },
+    {
+      "path": "configs/train/rt1_grpo.json",
+      "sha256": "5e46d286f3038cd4f8e368e2480ca5f40e673b5e52408ea974fed321c3e3f21b",
+      "bytes": 620
+    },
+    {
+      "path": "configs/train/rt1_main.json",
+      "sha256": "e58e14adda5a72d4c61764a3d56f481050c99f136ec295b15955e60455c1c955",
+      "bytes": 624
+    },
+    {
+      "path": "configs/train/rt1_memspo.json",
+      "sha256": "7acbef2982b643eece48c22118034329845491542f31bdd4b58de780d3990413",
+      "bytes": 624
+    },
+    {
+      "path": "configs/train/rt1_ordinary.json",
+      "sha256": "06e66b05194b17aeb38e8a5f50f06f8b2f328a5eec7f7cf683407bc2459d3d69",
+      "bytes": 628
+    },
+    {
+      "path": "configs/train/rt1_sft.json",
+      "sha256": "c917f1665da434d3e44d70072c9a6a397b43c7337884a86b9d0389415723b4ef",
+      "bytes": 738
+    },
+    {
+      "path": "docs/CODE_TOUR.md",
+      "sha256": "0180c82376bce811344ca1199ea83dffef04bf7b091015c713246ccdaf5591a8",
+      "bytes": 2152
+    },
+    {
+      "path": "docs/DATA.md",
+      "sha256": "7a2b393bce72d2aafdd40fe12f7ae044b7fdf14d772a474f23b7823e7c80f255",
+      "bytes": 2140
+    },
+    {
+      "path": "docs/GITHUB_PAGES.md",
+      "sha256": "affc4fe1f0d6c57b32735d7000ef1d66c835373e5f15788635efbb5a1440ec41",
+      "bytes": 3331
+    },
+    {
+      "path": "docs/HUGGINGFACE_RELEASE.md",
+      "sha256": "5462ff9690db041d91584d2b0d7adb0bf0160ec07bb68874debcff189fc657db",
+      "bytes": 5233
+    },
+    {
+      "path": "docs/LOADING.md",
+      "sha256": "24f7a97bac765ba07156d2c2b5956414063ac53c16ab641c2ee13b2f0da92ed2",
+      "bytes": 1451
+    },
+    {
+      "path": "docs/METHOD.md",
+      "sha256": "c70d8232b1cef34e90965624c4684e02dcc1b1ae15b7916ec363995877e82a87",
+      "bytes": 1424
+    },
+    {
+      "path": "docs/PROTOCOLS.md",
+      "sha256": "1e1a77ea40147ecf45ca7cf718f3ae672089598667945fc8f9635ee00ae979c9",
+      "bytes": 1859
+    },
+    {
+      "path": "docs/REPRODUCTION.md",
+      "sha256": "6a4d76f775fed69e182376fb7ec4f52ca11e64e819e41437b9070716589a5716",
+      "bytes": 6040
+    },
+    {
+      "path": "examples/trace_search.expected.json",
+      "sha256": "67ad821eaf3ea6ab40e4d0240c0901d75284fcf2ed4052c2638bdf70a25a9a68",
+      "bytes": 1791
+    },
+    {
+      "path": "examples/trace_search.py",
+      "sha256": "992fd716cb2eb2b7cc5dc646eb803befd07b6e0312bd402b6bdfad686ef9e0bf",
+      "bytes": 2336
+    },
+    {
+      "path": "licenses/Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    {
+      "path": "licenses/third_party_FSQ-LICENSE",
+      "sha256": "02cf6ed7df17f94fafa61e67a089ee51faac006db35ffa173c70e6763c253cf6",
+      "bytes": 1066
+    },
+    {
+      "path": "licenses/third_party_Paella-LICENSE",
+      "sha256": "504d3a0acc051dceb8f218ecc45c2cb154488d6f40c847cfe279570c876b94cf",
+      "bytes": 1071
+    },
+    {
+      "path": "licenses/third_party_PerceptualSimilarity-LICENSE",
+      "sha256": "59d091d66b48f09a8a5107216f2007d9e775ffb4cc467a25733ec25f7c5c8fa1",
+      "bytes": 1357
+    },
+    {
+      "path": "licenses/third_party_RLVR-World-LICENSE",
+      "sha256": "f963a3becf605b20bb9b2e54ee3ae705f8c58234530f1b8766c8e619abc41a1c",
+      "bytes": 1084
+    },
+    {
+      "path": "licenses/third_party_diffusers-LICENSE",
+      "sha256": "f9e2070c247517b1ddf65f7b11b393484a18da91a958fd18a97bd0f241c3125c",
+      "bytes": 11357
+    },
+    {
+      "path": "licenses/third_party_iVideoGPT-LICENSE",
+      "sha256": "2c919cd03fa823bf7eefc00a957ff8324c865cd22aa5285e563dc4b558084f25",
+      "bytes": 1084
+    },
+    {
+      "path": "licenses/third_party_taming-transformers-LICENSE",
+      "sha256": "f6216cce912c447025b8aacfa9ac09634c43815cd8d87762528300e5ddf6b959",
+      "bytes": 1093
+    },
+    {
+      "path": "model_cards/README.md",
+      "sha256": "70ad8a12df67964a81512d7e9b3c4daf752e248bfba231533df037f2624e928d",
+      "bytes": 1453
+    },
+    {
+      "path": "model_cards/bridge.md",
+      "sha256": "60da9f997ea5ddcf192096760a30ea3002f6c970384f688006f4e72b98278f5d",
+      "bytes": 2650
+    },
+    {
+      "path": "model_cards/robocasa.md",
+      "sha256": "0f96480df0cb1e7b292ff187bcc22055d783fdfd58b346bf335c8553f058b582",
+      "bytes": 2652
+    },
+    {
+      "path": "model_cards/rt1.md",
+      "sha256": "5ebd801ce9afb91b164818b53598993e795afc65aecab94820aac5ae70635d55",
+      "bytes": 2638
+    },
+    {
+      "path": "provenance/core_sources.json",
+      "sha256": "355ba01cbd1b021b6e008f204bdae5c0c88d19d3416dd9cd2148ea25278a6ecc",
+      "bytes": 5489
+    },
+    {
+      "path": "provenance/native_pipeline_validation.json",
+      "sha256": "a78dd33d3e42f9b46b241d915e42c1e9ab9c44f898c6ceb34ebb688bc01af97b",
+      "bytes": 1085
+    },
+    {
+      "path": "provenance/native_training_sources.json",
+      "sha256": "3bdc72f8d40cf1712a291d3ee929aa610e61cc230c239062f0aa3dc36d2fddcb",
+      "bytes": 2625
+    },
+    {
+      "path": "provenance/portable_sources.json",
+      "sha256": "8cb2a41d881a09852872c135d65e487d15197498a5e15f7450baa02baaf39655",
+      "bytes": 2376
+    },
+    {
+      "path": "provenance/release_status.json",
+      "sha256": "cd13b326131dd613a72ef967073d8590effb4c4b570e0c508b4d0b8e4d5600e6",
+      "bytes": 888
+    },
+    {
+      "path": "provenance/validation.json",
+      "sha256": "9618efbf8ef5990657ee0eafc2e5f1b32814aa8197ccfda15ba6b8559c676999",
+      "bytes": 1486
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "70cc8be6e37227ee3600f449c3a046458c015f249f7b17fc3e2473634eb06b59",
+      "bytes": 666
+    },
+    {
+      "path": "reproduce.sh",
+      "sha256": "7d65d56ca26047b9fecb3e0d422f8ae6ff9fd70aaa5816b624dd93910b32f805",
+      "bytes": 363
+    },
+    {
+      "path": "requirements-linux.txt",
+      "sha256": "429bac71b60ae9fb7bff9a36d217e589ba97cad8858f385b881cef317da6206d",
+      "bytes": 347
+    },
+    {
+      "path": "run.sh",
+      "sha256": "7a8ecbfbe473945d65c07f37011dae060ce64bfaa524a3dc63289111fc9431da",
+      "bytes": 345
+    },
+    {
+      "path": "scripts/prepare_hf_release.py",
+      "sha256": "56e965d43c5c3acbbe6b939c93f372152eb03e4f1ad59ed430ef0894eacc70b3",
+      "bytes": 2762
+    },
+    {
+      "path": "scripts/upload_hf_release.py",
+      "sha256": "ccb8e4a017ba2ecf88190380f3bf92105ea466ada8899d488c85e4acddbcd65b",
+      "bytes": 2005
+    },
+    {
+      "path": "scripts/verify_sources.py",
+      "sha256": "dc2be1cc8d1db199581b91d9385d99377069994801fd4b38934555533fc09357",
+      "bytes": 674
+    },
+    {
+      "path": "setup.sh",
+      "sha256": "13973971f951abfc93fb1fde98809da1637c82a09994e3fdb5ebd2d69a05ce72",
+      "bytes": 227
+    },
+    {
+      "path": "site/.nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "site/app.js",
+      "sha256": "db555e8d2487617aeadea8ac904bdf1657b5e5604c396080cc365179df398457",
+      "bytes": 7323
+    },
+    {
+      "path": "site/assets/efficiency.png",
+      "sha256": "0db64dfe8bd48cb98e3d31b8c3af591c6a01fe9f34820d51645eb95969e68615",
+      "bytes": 303984
+    },
+    {
+      "path": "site/assets/futureworlds-explainer-en.jpg",
+      "sha256": "f5bdd56aa0f444651797d53d3ff46291193245395934b928d548479e3bd5cbe3",
+      "bytes": 174306
+    },
+    {
+      "path": "site/assets/futureworlds-explainer-en.mp4",
+      "sha256": "4e76b26fac6f29b713e6acb0e190d8d58d9e2f6d2aa6dcdca32b2d87e67ee6ee",
+      "bytes": 2030867
+    },
+    {
+      "path": "site/assets/method.png",
+      "sha256": "ebf292e9c38327fe70a41742485480276b11434928139a471882e6c4ec19dda3",
+      "bytes": 7509014
+    },
+    {
+      "path": "site/assets/qualitative.png",
+      "sha256": "d64631695be020813cb98d0115ea09aff051c6304f243d005bac185a5a7ddb49",
+      "bytes": 2926488
+    },
+    {
+      "path": "site/assets/rollouts/bridge.jpg",
+      "sha256": "ffb014e8d22e1f26abafbca6c726f212d8ec8b411a593bcc792339d6acb04633",
+      "bytes": 101152
+    },
+    {
+      "path": "site/assets/rollouts/bridge.mp4",
+      "sha256": "29421b99e676972611d4376cdc4a4b91b5011385485205f7fa939ddddcbcd996",
+      "bytes": 545736
+    },
+    {
+      "path": "site/assets/rollouts/robocasa.jpg",
+      "sha256": "1098880352a12a2ec87c2cc392cf08d72120d44ae1d8b1d5923b74a276f1b232",
+      "bytes": 75177
+    },
+    {
+      "path": "site/assets/rollouts/robocasa.mp4",
+      "sha256": "c8891036ef914e2fda10132975b9e00e43a18ebc96f9a2f905da41fb3b7a7ce9",
+      "bytes": 308468
+    },
+    {
+      "path": "site/assets/rollouts/rt1.jpg",
+      "sha256": "c05def50d3f112828752ef15b6d3e3b99b0562d3c837c1c422415d691f7c8d7a",
+      "bytes": 70671
+    },
+    {
+      "path": "site/assets/rollouts/rt1.mp4",
+      "sha256": "543ae1470c0ddd69f503f936e92066bd799b8a26d70cb64311f69a88c2847b48",
+      "bytes": 388970
+    },
+    {
+      "path": "site/data/assets.json",
+      "sha256": "0418e3dddd1d8dc383671c99b27e6fdd344228f9e44b6ae8d5355c7e564cae92",
+      "bytes": 3692
+    },
+    {
+      "path": "site/data/explainer.json",
+      "sha256": "a68eb29af9703e45fe6c842371f8bba0fc098515d199c5b8a289ed82c7cc0847",
+      "bytes": 2533
+    },
+    {
+      "path": "site/data/results.csv",
+      "sha256": "99d6ef4faa332ab162bcbb01ba6927847769b4a256f8598f6854494aba9f6eff",
+      "bytes": 1854
+    },
+    {
+      "path": "site/data/results.json",
+      "sha256": "e4c575c778493f9cce1e58f92c27205d6486258c2058b668b0bed0ac6638588c",
+      "bytes": 4780
+    },
+    {
+      "path": "site/data/rollouts.json",
+      "sha256": "756a180e4d1c51ab43d27156ae46dcba8c4afa4bdcffd702410af6d0ac7d0159",
+      "bytes": 2538
+    },
+    {
+      "path": "site/guides.html",
+      "sha256": "2c9be7777b1c92c52a6f137859c4bc965a2fffb7580669208a271fe3bdb6e00c",
+      "bytes": 8970
+    },
+    {
+      "path": "site/index.html",
+      "sha256": "66916bb06012ee66bb0a0731af65736a27ca56bd72e151deaac329a109a5ee8b",
+      "bytes": 18326
+    },
+    {
+      "path": "site/style.css",
+      "sha256": "c2655ab7e668764ebe2fe7df355b7d80624f05db91740e9db532ec6df8a396ea",
+      "bytes": 18892
+    },
+    {
+      "path": "src/futureworlds/__init__.py",
+      "sha256": "a600f72c509cf21ba62c7fe4af4c33e1bf58aa291299b96e3d896fd34f81658e",
+      "bytes": 108
+    },
+    {
+      "path": "src/futureworlds/__main__.py",
+      "sha256": "4170f8f1231575cc8bfdcfb7ef42e63879b5739eb4594b6edb13ee7400059011",
+      "bytes": 78
+    },
+    {
+      "path": "src/futureworlds/batch.py",
+      "sha256": "35c4ffb7f82b3f00b56c8af02bcc8043361035af7892ae001ff2e6a6ef42602c",
+      "bytes": 521
+    },
+    {
+      "path": "src/futureworlds/cache.py",
+      "sha256": "af21c94d15f023666c9d0f648d53b40fc76e90e04f54c2776804cc24968d8db1",
+      "bytes": 3195
+    },
+    {
+      "path": "src/futureworlds/checkpoints.py",
+      "sha256": "6ce6f327dea0b7cd81d9abef9646bc879109bab62b236ff009ec86f3a7530566",
+      "bytes": 3356
+    },
+    {
+      "path": "src/futureworlds/cli.py",
+      "sha256": "696c03c52abb11fa4d1da3886ec5b591dbc101fe93bdccb8268189c00582be88",
+      "bytes": 9177
+    },
+    {
+      "path": "src/futureworlds/codec/__init__.py",
+      "sha256": "fa7e4daff1feb059149e2f38972555a95c5c8be404ef3b5cec8580a407220aa5",
+      "bytes": 60
+    },
+    {
+      "path": "src/futureworlds/codec/compressive_vq_model_fsq.py",
+      "sha256": "673e2b96686e30b0fade879a5658925971407fd004abcb7c18e8bb42e981c8d6",
+      "bytes": 14931
+    },
+    {
+      "path": "src/futureworlds/codec/conditional_vae.py",
+      "sha256": "c1cebeaca4bbd04cfd9c1a10c296f6ddf8ba5aad95446471d5be14e5225c5f60",
+      "bytes": 7456
+    },
+    {
+      "path": "src/futureworlds/codec/finite_scalar_quantize.py",
+      "sha256": "546e44b486a21afcb0fba2c7cf4798106da1da0d143e230e24f2ac7084ae1a21",
+      "bytes": 7700
+    },
+    {
+      "path": "src/futureworlds/codec/vae.py",
+      "sha256": "db74bbeec458e4a7bc4e733720b55cb1d1fad268f50101ca25de61a67dbc69a3",
+      "bytes": 13736
+    },
+    {
+      "path": "src/futureworlds/codec_training/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "src/futureworlds/codec_training/bridge/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "src/futureworlds/codec_training/bridge/common.py",
+      "sha256": "36036774b34fc6b06e13a895c9bd37d5c4eb11c9eb5c6d45b96041bc63af1cd6",
+      "bytes": 7741
+    },
+    {
+      "path": "src/futureworlds/codec_training/bridge/discriminator.py",
+      "sha256": "1c1c8c59d63691483ad657573ee37722910871aea0e608a0f43a30440da6adf6",
+      "bytes": 3723
+    },
+    {
+      "path": "src/futureworlds/codec_training/bridge/sampling.py",
+      "sha256": "19c20099480e2997583f1563f3aca2fcba4bbb57d3380b61776932457c4d2b16",
+      "bytes": 955
+    },
+    {
+      "path": "src/futureworlds/codec_training/bridge/worker.py",
+      "sha256": "0e55c007d7a08882ad4ddd9d45748d9026078fb871cf356228daa090c46b3798",
+      "bytes": 20089
+    },
+    {
+      "path": "src/futureworlds/codec_training/robocasa/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "src/futureworlds/codec_training/robocasa/common.py",
+      "sha256": "986af102bd2ec6b2662f76958c0a627c10bc5caee67952e21a3dd32bc3243a72",
+      "bytes": 7034
+    },
+    {
+      "path": "src/futureworlds/codec_training/robocasa/discriminator.py",
+      "sha256": "1c1c8c59d63691483ad657573ee37722910871aea0e608a0f43a30440da6adf6",
+      "bytes": 3723
+    },
+    {
+      "path": "src/futureworlds/codec_training/robocasa/sampling.py",
+      "sha256": "fa2295b7db95691191764f307fef043f9e248dbf62e033e754646563e3e8dfad",
+      "bytes": 959
+    },
+    {
+      "path": "src/futureworlds/codec_training/robocasa/worker.py",
+      "sha256": "bfa16a69aac847581b01204f3ef16527db12778414c3d96d79cc6e6d14d0f43a",
+      "bytes": 20896
+    },
+    {
+      "path": "src/futureworlds/data.py",
+      "sha256": "fd1f96dfa76769a8acb5c71452c867dfdf87675e781e77b263fa38ed856d2e3e",
+      "bytes": 5760
+    },
+    {
+      "path": "src/futureworlds/data_readers/__init__.py",
+      "sha256": "f4de002c523a08ca6bc58db1b0f9ff7cff5df8e5240200e977cacba23b1d0dea",
+      "bytes": 70
+    },
+    {
+      "path": "src/futureworlds/data_readers/robocasa.py",
+      "sha256": "a4bfacbda3cb591c02f84efed1561bfe2a4ba481880008a57edef42fb4987be2",
+      "bytes": 2828
+    },
+    {
+      "path": "src/futureworlds/data_readers/rt1.py",
+      "sha256": "3e24d8a7a295df19fb3deadc5c287c020e06f72b07a22ecc51669fd21083d562",
+      "bytes": 5493
+    },
+    {
+      "path": "src/futureworlds/decoding.py",
+      "sha256": "41440c10b70e3f72b3dddeef1063220d3b98f917a2ad97a94c0c542cae51000f",
+      "bytes": 4887
+    },
+    {
+      "path": "src/futureworlds/evaluation.py",
+      "sha256": "dd54196b965e843226cbc39713b69a56e365d381153ad46a4e3750222a2dc889",
+      "bytes": 7092
+    },
+    {
+      "path": "src/futureworlds/exporting.py",
+      "sha256": "c67858d3d72fcdfb70cb29138d1a2bbffb650b7afb258bfb09e9bc706ed4e42d",
+      "bytes": 3497
+    },
+    {
+      "path": "src/futureworlds/memory.py",
+      "sha256": "55040316c2aca73045e3e37ee63db11e7b3867e5cd1432a5d7a18f7edb3ef2f6",
+      "bytes": 2856
+    },
+    {
+      "path": "src/futureworlds/motion_reward.py",
+      "sha256": "f5d068c7ef3d68115550f2ae29750d6b61110eaead0d808715afbfa715733df6",
+      "bytes": 4356
+    },
+    {
+      "path": "src/futureworlds/objective.py",
+      "sha256": "b69789b215898d9027f9d482a7f65e2079969bbb49eaa29b368e9a42ee051ecd",
+      "bytes": 8002
+    },
+    {
+      "path": "src/futureworlds/ordinary_search.py",
+      "sha256": "fda2539e4d6629921d91f8d50cc08191939f2026f77d7eb8c19776e78713642c",
+      "bytes": 5124
+    },
+    {
+      "path": "src/futureworlds/pipeline.py",
+      "sha256": "e2b18aede4b628bc07142cb38693d2ac2bbf93b853e6489c75d4a4e5509156b8",
+      "bytes": 8186
+    },
+    {
+      "path": "src/futureworlds/protocol.py",
+      "sha256": "4c52efe173f4e30354ce8e1e5dfc9229b03333f1de362855691516e1cb41d439",
+      "bytes": 1938
+    },
+    {
+      "path": "src/futureworlds/reporting.py",
+      "sha256": "f83aae7a042d2ef56cfdaa67c08e3853661611c39bc448d29a12eca64d4ed757",
+      "bytes": 1560
+    },
+    {
+      "path": "src/futureworlds/reward_core.py",
+      "sha256": "387f8bca36cf5a748f0a9bb970b88f84389947a6159df3d5dc2f5db79b0b6e22",
+      "bytes": 5609
+    },
+    {
+      "path": "src/futureworlds/rewards.py",
+      "sha256": "96f027ebe47d990505acda076d633fd146dbe99a4beb5210fadf7d7d1994e6ff",
+      "bytes": 3403
+    },
+    {
+      "path": "src/futureworlds/sampling.py",
+      "sha256": "e9082a4956650028e8257e1824e73ba43e2a964f30f15ca75c35b939788889fd",
+      "bytes": 1980
+    },
+    {
+      "path": "src/futureworlds/search.py",
+      "sha256": "2b7fb9ad1e87c7ef6b6c56db90eace0b90396e61c240763b59e7f4fc6df3eab7",
+      "bytes": 5719
+    },
+    {
+      "path": "src/futureworlds/text_conditioning.py",
+      "sha256": "363a5e3d5aeea28adc6ceea30a62653a480b478bca2ef41f3475afcb56555c1b",
+      "bytes": 4089
+    },
+    {
+      "path": "src/futureworlds/training.py",
+      "sha256": "053e7bc3c614227d4f7ce8dbc887a588accd751092360089aa7e161d03ed0f91",
+      "bytes": 21147
+    },
+    {
+      "path": "src/futureworlds/workflow.py",
+      "sha256": "9479f5899669ea7df146f510e6bbedb19a02ec6956cb1d43d07544fe954e7ff3",
+      "bytes": 8945
+    },
+    {
+      "path": "tests/check_grouped.py",
+      "sha256": "b098a95fb1ff5c573fb98d6c62fdb983e0f63c8fbdeb050ec107f60f14a85778",
+      "bytes": 5801
+    },
+    {
+      "path": "tests/check_ordinary.py",
+      "sha256": "ccdd7255db420ee384f71262f5d966b5d9eef7924d6fef9e6957d51809d9561b",
+      "bytes": 4489
+    },
+    {
+      "path": "tests/test_checkpoints.py",
+      "sha256": "38a0b92a352492e55eab75c69501a77a2bb96f3386fad88bd8b3a361e7af689e",
+      "bytes": 4132
+    },
+    {
+      "path": "tests/test_core.py",
+      "sha256": "0d6f497536c91a4e43bcc1e4fc91349ce34081e08d42c1a0ad1c6ca97a39a734",
+      "bytes": 1050
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "sha256": "f7ba5cf7595ed06d5e2c0057a5213ae84b3ba183c790298f0b536095d2302e3b",
+      "bytes": 9415
+    },
+    {
+      "path": "tests/test_release_tools.py",
+      "sha256": "f76160dc1d69e2e2adefa8144476fed4d3761e57ee3e98848dd778d9b87f2b72",
+      "bytes": 3072
+    },
+    {
+      "path": "tests/test_training_paths.py",
+      "sha256": "d144745535a22002143f99e26bffb4bd51f25124870ef429546be9fc1e39abc1",
+      "bytes": 2311
+    },
+    {
+      "path": "tests/test_workflows.py",
+      "sha256": "99d8f67d11ea8ad0fde0de9405fa22de5e3cb8563db6b80d2e1f5901c822ac3d",
+      "bytes": 5958
+    },
+    {
+      "path": "weights_manifest.json",
+      "sha256": "3c66ffe9d3593accb46a27b3eb624bbdc4368481ce784a7fe6018511bea86773",
+      "bytes": 18897
+    }
+  ]
+}

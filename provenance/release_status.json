@@ -1,0 +1,20 @@
+{
+  "status": "public_code_release_candidate",
+  "date": "2026-09-24",
+  "predictor_variants": 15,
+  "codecs": 3,
+  "files": 149,
+  "source_weight_bytes": 9274601706,
+  "main_plus_codec_bytes_approx": 3097769682,
+  "stage_manifest_sha256": "97d63e3dad179fe671438556b4d5fa5920c43572f1e578404b8a4e8e51233a2a",
+  "source_and_stage_sha256_match": true,
+  "internal_paths_excluded_from_export_text": true,
+  "cpu_checks_passed": 18,
+  "gpu_reproduction_verified": false,
+  "huggingface_uploaded": false,
+  "local_code_update": "Full native codec/RGB pipeline, explicit data preparation, SFT/post-training, caching, checkpoint resume, export, fixed-cohort evaluation, one-command workflows; server weights unchanged",
+  "cpu_checks_skipped": 1,
+  "native_first_frame_exact_matches": 3,
+  "full_gpu_reproduction_verified": false,
+  "repository": "https://github.com/Alexander-wu/FutureWorlds"
+}

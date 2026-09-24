@@ -1,0 +1,13 @@
+{
+  "bundle": "/path/to/futureworlds_weights",
+  "data": "/path/to/futureworlds_data",
+  "output": "/path/to/reproduction_results",
+  "text_model": "/path/to/google-t5-base",
+  "gpus": 1,
+  "datasets": ["rt1", "bridge", "robocasa"],
+  "sources": {
+    "rt1": {"manifest": "/path/to/rt1/dev_windows.jsonl"},
+    "bridge": {"manifest": "/path/to/bridge/dev_manifest.jsonl"},
+    "robocasa": {"manifest": "/path/to/robocasa/test_windows.jsonl"}
+  }
+}

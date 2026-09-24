@@ -1,0 +1,40 @@
+{
+  "gpu_used": false,
+  "cases": {
+    "rt1": {
+      "case": "005e86d7d9f9a5c94b2f39f7b1ced1198c7668f685fd4e795b88488602e2d0ea_0000",
+      "horizon": 1,
+      "all_80_generated_tokens_equal": true,
+      "float_pixels_equal": true,
+      "training_anchor_equal": true,
+      "action_tokens": 13,
+      "seconds": 98.56711859698407
+    },
+    "bridge": {
+      "case": "train_eps_00000061",
+      "horizon": 1,
+      "all_80_generated_tokens_equal": true,
+      "float_pixels_equal": true,
+      "training_anchor_equal": true,
+      "action_tokens": 13,
+      "seconds": 94.42799175181426
+    },
+    "robocasa": {
+      "case": "1777e11df5f40ed452c0ee4d9a1c15058447198d3b908a42c7b7f58596242e60_s000000_n082",
+      "horizon": 1,
+      "all_80_generated_tokens_equal": true,
+      "float_pixels_equal": true,
+      "training_anchor_equal": true,
+      "action_tokens": 52,
+      "seconds": 96.34831221913919
+    }
+  },
+  "versions": {
+    "torch": "2.9.1",
+    "transformers": "4.57.1",
+    "diffusers": "0.35.2",
+    "lpips": "0.1.4",
+    "piqa": "1.3.2",
+    "numpy": "2.5.3"
+  }
+}

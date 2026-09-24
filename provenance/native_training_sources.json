@@ -1,0 +1,50 @@
+[
+  {
+    "source": "work/recap_long_reconstruction_20260913/paper_worker.py",
+    "sha256": "f507de57f3286fff6629681f8e3d4885d3c17243d499f47150ae958d098e32a5",
+    "destination": "src/futureworlds/codec_training/bridge/worker.py",
+    "packaged_sha256": "0e55c007d7a08882ad4ddd9d45748d9026078fb871cf356228daa090c46b3798"
+  },
+  {
+    "source": "work/recap_long_reconstruction_20260913/common.py",
+    "sha256": "c2a28a1f9c0b18462e14bfec3d5e82de0634fc9b58f23eb87fa9e051fc8d96ca",
+    "destination": "src/futureworlds/codec_training/bridge/common.py",
+    "packaged_sha256": "36036774b34fc6b06e13a895c9bd37d5c4eb11c9eb5c6d45b96041bc63af1cd6"
+  },
+  {
+    "source": "work/recap_long_reconstruction_20260913/sampling.py",
+    "sha256": "1d8bc981954473830a9d0c6a45254ccf84cb5ecf0906cb7c0bb7997c0a2f0cec",
+    "destination": "src/futureworlds/codec_training/bridge/sampling.py",
+    "packaged_sha256": "19c20099480e2997583f1563f3aca2fcba4bbb57d3380b61776932457c4d2b16"
+  },
+  {
+    "source": "work/recap_long_reconstruction_20260913/discriminator.py",
+    "sha256": "df80e1e5561cf10b9af8ac7d5b4df4fe460e4db8adcdf22fc2e15f5d78e1928e",
+    "destination": "src/futureworlds/codec_training/bridge/discriminator.py",
+    "packaged_sha256": "1c1c8c59d63691483ad657573ee37722910871aea0e608a0f43a30440da6adf6"
+  },
+  {
+    "source": "work/robocasa_transfer_20260918/source/codec/worker.py",
+    "sha256": "fd608d7457e9189cb1f2bc758d6302ab5e585a9bb9580025891caff1e041789e",
+    "destination": "src/futureworlds/codec_training/robocasa/worker.py",
+    "packaged_sha256": "bfa16a69aac847581b01204f3ef16527db12778414c3d96d79cc6e6d14d0f43a"
+  },
+  {
+    "source": "work/robocasa_transfer_20260918/source/codec/common.py",
+    "sha256": "8ab1814a6c3e8121de247508b056711acbeff2c8616546bb5cbdbb7ef7da3e75",
+    "destination": "src/futureworlds/codec_training/robocasa/common.py",
+    "packaged_sha256": "986af102bd2ec6b2662f76958c0a627c10bc5caee67952e21a3dd32bc3243a72"
+  },
+  {
+    "source": "work/robocasa_transfer_20260918/source/codec/sampling.py",
+    "sha256": "0f9b35fef4566533748588684a0c09fc5b5b3794c9aa1e860a77a6e21cc6b80c",
+    "destination": "src/futureworlds/codec_training/robocasa/sampling.py",
+    "packaged_sha256": "fa2295b7db95691191764f307fef043f9e248dbf62e033e754646563e3e8dfad"
+  },
+  {
+    "source": "work/robocasa_transfer_20260918/source/codec/discriminator.py",
+    "sha256": "df80e1e5561cf10b9af8ac7d5b4df4fe460e4db8adcdf22fc2e15f5d78e1928e",
+    "destination": "src/futureworlds/codec_training/robocasa/discriminator.py",
+    "packaged_sha256": "1c1c8c59d63691483ad657573ee37722910871aea0e608a0f43a30440da6adf6"
+  }
+]

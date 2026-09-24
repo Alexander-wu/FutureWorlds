@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "name": "matched-200",
+  "horizons": [
+    10,
+    20,
+    32
+  ],
+  "beam_width": 4,
+  "variants": [
+    "sft",
+    "grpo200",
+    "ordinary200",
+    "memspo200"
+  ],
+  "memories": [
+    "full"
+  ],
+  "datasets": {
+    "rt1": {
+      "cohort": "../cohorts/rt1_128.json",
+      "generation_device": "cuda",
+      "metric_device": "cuda"
+    },
+    "robocasa": {
+      "cohort": "../cohorts/robocasa_128.json",
+      "generation_device": "cuda",
+      "metric_device": "cuda"
+    },
+    "bridge": {
+      "cohort": "../cohorts/bridge_128.json",
+      "generation_device": "cuda",
+      "metric_device": "cuda"
+    }
+  }
+}

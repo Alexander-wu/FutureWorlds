@@ -1,0 +1,88 @@
+{
+  "duration_seconds": 60,
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 15,
+  "language": "en",
+  "audio": false,
+  "font": "Malayalam MN",
+  "chapters": [
+    {
+      "start": 0,
+      "end": 6,
+      "title": "FutureWorlds",
+      "subtitle": [
+        "A world model predicts future observations from a given action sequence.",
+        "We improve the predictor by comparing several candidate futures."
+      ]
+    },
+    {
+      "start": 6,
+      "end": 14,
+      "title": "Candidate construction",
+      "subtitle": [
+        "Search starts from shared observations, actions, and task conditions.",
+        "A diversity constraint reduces overlap between candidate trajectories."
+      ]
+    },
+    {
+      "start": 14,
+      "end": 22,
+      "title": "Candidate-specific memory",
+      "subtitle": [
+        "Each candidate retains its own scene context, state anchors, and recent history.",
+        "Generation and policy scoring use the same retained history."
+      ]
+    },
+    {
+      "start": 22,
+      "end": 32,
+      "title": "Learning from relative quality",
+      "subtitle": [
+        "Video rewards compare the candidate trajectories with the recorded future.",
+        "MemSPO uses group-relative advantages in a search-guided policy update."
+      ]
+    },
+    {
+      "start": 32,
+      "end": 39,
+      "title": "RT-1",
+      "subtitle": [
+        "The three sequences show the same future time step.",
+        "Compare the can position and its relation to the gripper."
+      ]
+    },
+    {
+      "start": 39,
+      "end": 46,
+      "title": "BridgeV2",
+      "subtitle": [
+        "The SFT prediction leaves the pot behind while the gripper moves away.",
+        "MemSPO more closely follows the recorded object motion in this example."
+      ]
+    },
+    {
+      "start": 46,
+      "end": 53,
+      "title": "RoboCasa",
+      "subtitle": [
+        "Compare the arm and gripper poses as the sequence unfolds.",
+        "These are open-loop predictions from recorded trajectories."
+      ]
+    },
+    {
+      "start": 53,
+      "end": 60,
+      "title": "Quantitative comparison",
+      "subtitle": [
+        "The reported evaluation covers RT-1, BridgeV2, and RoboCasa.",
+        "Full comparisons, protocol details, and code are provided on the project page."
+      ]
+    }
+  ],
+  "case_sources": "rollouts.json",
+  "note": "Conceptual method diagrams; real open-loop prediction frames, no interpolated future frames.",
+  "sha256": "4e76b26fac6f29b713e6acb0e190d8d58d9e2f6d2aa6dcdca32b2d87e67ee6ee"
+}

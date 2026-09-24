@@ -1,0 +1,80 @@
+{
+  "run_root": "/path/to/run_root",
+  "data_root": "/path/to/data_root",
+  "tokenizer": "/path/to/tokenizer",
+  "tokenizer_sha256": "7c8194f83617137ef0a002a15d60c6ee222bcd2442afb4ed704a7918496cc073",
+  "seed": 20260918,
+  "steps": 50000,
+  "global_batch": 32,
+  "lr": 5e-05,
+  "warmup": 5000,
+  "validate_every": 2000,
+  "short_tolerance": 1.02,
+  "world_size": 16,
+  "objective": "unit L1 and VGG LPIPS for context and dynamics, plus 0.1 adversarial loss; hinge plus GP10 for D",
+  "targets_per_episode": 7,
+  "target_gap_groups": [
+    [
+      1,
+      7
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      8,
+      16
+    ],
+    [
+      8,
+      16
+    ],
+    [
+      17,
+      40
+    ],
+    [
+      17,
+      40
+    ]
+  ],
+  "separate_control_training": false,
+  "discriminator_lr": 5e-05,
+  "discriminator_start": 10000,
+  "gan_weight": 0.1,
+  "gradient_penalty_weight": 10.0,
+  "checkpoint_every": 5000,
+  "training_scope": "all RoboCasa training episodes; task-balanced primary left camera; seven targets spanning up to40 sampled steps",
+  "gradient_checkpointing": true,
+  "precision": "BF16 codec; TF32 enabled for training; FP32 losses and discriminator GP",
+  "counter": "shared G/D steps50000:30000generator +20000discriminator; GAN activates at10000",
+  "early_stopping": false,
+  "paper_reference": "technical_report.pdf B.6 / Table7, pages21\u201323",
+  "augmentation": {
+    "clip_shared_color_jitter": {
+      "brightness": [
+        0.9,
+        1.1
+      ],
+      "contrast": [
+        0.9,
+        1.1
+      ],
+      "saturation": [
+        0.9,
+        1.1
+      ],
+      "hue": [
+        -0.05,
+        0.05
+      ]
+    },
+    "geometry": "Pillow BICUBIC direct resize256x256to256x320; no padding/crop"
+  },
+  "no_world_model_autostart": false
+}
