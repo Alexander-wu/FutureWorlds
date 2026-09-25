@@ -1,0 +1,68 @@
+[
+  {
+    "file": "assets/method.png",
+    "source": "Manuscript Figure 2, current canonical PNG",
+    "sha256": "ebf292e9c38327fe70a41742485480276b11434928139a471882e6c4ec19dda3",
+    "transformation": "None; original PNG copied byte-for-byte"
+  },
+  {
+    "file": "assets/qualitative.png",
+    "source": "Manuscript Figure 3, approved five-case baseline comparison",
+    "sha256": "d64631695be020813cb98d0115ea09aff051c6304f243d005bac185a5a7ddb49",
+    "transformation": "None; original PNG copied byte-for-byte"
+  },
+  {
+    "file": "assets/efficiency.png",
+    "source": "Manuscript Figure 5, BridgeV2 model size and quality",
+    "sha256": "0db64dfe8bd48cb98e3d31b8c3af591c6a01fe9f34820d51645eb95969e68615",
+    "transformation": "None; original PNG copied byte-for-byte"
+  },
+  {
+    "file": "assets/rollouts/rt1.mp4",
+    "source": "Original RT-1 selected 32-frame GT/SFT/MemSPO sequence; provenance in data/rollouts.json",
+    "sha256": "543ae1470c0ddd69f503f936e92066bd799b8a26d70cb64311f69a88c2847b48",
+    "transformation": "Native 320x256 frames placed side by side, original sequence order; H.264 encoding, no interpolation or retouching. Last frame held for 1 second."
+  },
+  {
+    "file": "assets/rollouts/rt1.jpg",
+    "source": "Original RT-1 selected 32-frame GT/SFT/MemSPO sequence; provenance in data/rollouts.json",
+    "sha256": "c05def50d3f112828752ef15b6d3e3b99b0562d3c837c1c422415d691f7c8d7a",
+    "transformation": "Final synchronized triptych as JPEG poster"
+  },
+  {
+    "file": "assets/rollouts/bridge.mp4",
+    "source": "Original BridgeV2 selected 32-frame GT/SFT/MemSPO sequence; provenance in data/rollouts.json",
+    "sha256": "29421b99e676972611d4376cdc4a4b91b5011385485205f7fa939ddddcbcd996",
+    "transformation": "Native 320x256 frames placed side by side, original sequence order; H.264 encoding, no interpolation or retouching. Last frame held for 1 second."
+  },
+  {
+    "file": "assets/rollouts/bridge.jpg",
+    "source": "Original BridgeV2 selected 32-frame GT/SFT/MemSPO sequence; provenance in data/rollouts.json",
+    "sha256": "ffb014e8d22e1f26abafbca6c726f212d8ec8b411a593bcc792339d6acb04633",
+    "transformation": "Final synchronized triptych as JPEG poster"
+  },
+  {
+    "file": "assets/rollouts/robocasa.mp4",
+    "source": "Original RoboCasa selected 32-frame GT/SFT/MemSPO sequence; provenance in data/rollouts.json",
+    "sha256": "c8891036ef914e2fda10132975b9e00e43a18ebc96f9a2f905da41fb3b7a7ce9",
+    "transformation": "Native 320x256 frames placed side by side, original sequence order; H.264 encoding, no interpolation or retouching. Last frame held for 1 second."
+  },
+  {
+    "file": "assets/rollouts/robocasa.jpg",
+    "source": "Original RoboCasa selected 32-frame GT/SFT/MemSPO sequence; provenance in data/rollouts.json",
+    "sha256": "1098880352a12a2ec87c2cc392cf08d72120d44ae1d8b1d5923b74a276f1b232",
+    "transformation": "Final synchronized triptych as JPEG poster"
+  },
+  {
+    "file": "assets/futureworlds-explainer-en.mp4",
+    "sha256": "4e76b26fac6f29b713e6acb0e190d8d58d9e2f6d2aa6dcdca32b2d87e67ee6ee",
+    "source": "English academic method explainer; storyboard in data/explainer.json; audited cases in data/rollouts.json",
+    "transformation": "Minimal original diagrams and original prediction sequences; no image interpolation."
+  },
+  {
+    "file": "assets/futureworlds-explainer-en.jpg",
+    "sha256": "f5bdd56aa0f444651797d53d3ff46291193245395934b928d548479e3bd5cbe3",
+    "source": "English academic method explainer; storyboard in data/explainer.json; audited cases in data/rollouts.json",
+    "transformation": "Minimal original diagrams and original prediction sequences; no image interpolation."
+  }
+]

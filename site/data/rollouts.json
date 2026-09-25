@@ -1,0 +1,72 @@
+[
+  {
+    "dataset": "RT-1",
+    "file": "assets/rollouts/rt1.mp4",
+    "poster": "assets/rollouts/rt1.jpg",
+    "frames": 32,
+    "display_fps": 5,
+    "end_hold_seconds": 1,
+    "models": [
+      "Ground truth",
+      "SFT",
+      "MemSPO"
+    ],
+    "memspo_updates": 500,
+    "source_files": [
+      {
+        "file": "outputs/recap_wm_long_sft/experiments/positive_cases_20260919/rt1_00_frames.npz",
+        "sha256": "cc35c6e08aab097f77f890688b20639b1d7b4e41551b5dc7481cc5339dfef1f2"
+      }
+    ],
+    "transformation": "Native 320x256 frames placed side by side, original sequence order; H.264 encoding, no interpolation or retouching. Last frame held for 1 second.",
+    "sha256": "543ae1470c0ddd69f503f936e92066bd799b8a26d70cb64311f69a88c2847b48"
+  },
+  {
+    "dataset": "BridgeV2",
+    "file": "assets/rollouts/bridge.mp4",
+    "poster": "assets/rollouts/bridge.jpg",
+    "frames": 32,
+    "display_fps": 5,
+    "end_hold_seconds": 1,
+    "models": [
+      "Ground truth",
+      "SFT",
+      "MemSPO"
+    ],
+    "memspo_updates": 200,
+    "source_files": [
+      {
+        "file": "outputs/recap_wm_long_sft/figures/semantic_cases_20260921/cases/01_train_eps_00006848/frames.npz",
+        "sha256": "9f98f30ee0b53bff106617862400c50ad50c045816818ce78ca9f37944631d81"
+      }
+    ],
+    "transformation": "Native 320x256 frames placed side by side, original sequence order; H.264 encoding, no interpolation or retouching. Last frame held for 1 second.",
+    "sha256": "29421b99e676972611d4376cdc4a4b91b5011385485205f7fa939ddddcbcd996"
+  },
+  {
+    "dataset": "RoboCasa",
+    "file": "assets/rollouts/robocasa.mp4",
+    "poster": "assets/rollouts/robocasa.jpg",
+    "frames": 32,
+    "display_fps": 5,
+    "end_hold_seconds": 1,
+    "models": [
+      "Ground truth",
+      "SFT",
+      "MemSPO"
+    ],
+    "memspo_updates": 400,
+    "source_files": [
+      {
+        "file": "outputs/recap_wm_long_sft/experiments/robocasa_memspo_cases_20260919/case_00_sft.npz",
+        "sha256": "2ded0930477c376bdd162882981e59f84a39f75ace228dbb1f8d2b5a1b250e81"
+      },
+      {
+        "file": "outputs/recap_wm_long_sft/experiments/robocasa_memspo_cases_20260919/case_00_memspo.npz",
+        "sha256": "7d34d1aaa6d09cd2cb339d94fc52463e3c43186ffd7d031e7b982de0fc085ffe"
+      }
+    ],
+    "transformation": "Native 320x256 frames placed side by side, original sequence order; H.264 encoding, no interpolation or retouching. Last frame held for 1 second.",
+    "sha256": "c8891036ef914e2fda10132975b9e00e43a18ebc96f9a2f905da41fb3b7a7ce9"
+  }
+]

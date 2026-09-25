@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "name": "memory",
+  "horizons": [
+    10,
+    20,
+    32
+  ],
+  "beam_width": 4,
+  "variants": [
+    "memspo200"
+  ],
+  "memories": [
+    "full",
+    "recent",
+    "minimal"
+  ],
+  "datasets": {
+    "rt1": {
+      "cohort": "../cohorts/rt1_128.json",
+      "generation_device": "cuda",
+      "metric_device": "cuda"
+    },
+    "robocasa": {
+      "cohort": "../cohorts/robocasa_128.json",
+      "generation_device": "cuda",
+      "metric_device": "cuda"
+    },
+    "bridge": {
+      "cohort": "../cohorts/bridge_128.json",
+      "generation_device": "cuda",
+      "metric_device": "cuda"
+    }
+  }
+}

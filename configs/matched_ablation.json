@@ -1,0 +1,36 @@
+{
+  "kind": "protocol_only_not_a_training_config",
+  "datasets": [
+    "rt1",
+    "bridge",
+    "robocasa"
+  ],
+  "samples_per_dataset": 128,
+  "initial_observations": 2,
+  "sft_updates": 50000,
+  "rl_updates": 200,
+  "training_horizon": 10,
+  "evaluation_horizons": [
+    10,
+    20,
+    32
+  ],
+  "evaluation_beam_width": 4,
+  "memory": {
+    "anchor_states": 1,
+    "recent_states": 6,
+    "ground_truth_refresh": false
+  },
+  "proposal_comparison": {
+    "MemSPO": {
+      "groups": 4,
+      "beams_per_group": 2,
+      "returned": 4
+    },
+    "OrdinaryBeam": {
+      "global_beams": 8,
+      "returned": 4
+    }
+  },
+  "note": "Bridge controls are GPU re-evaluations; do not substitute main-table checkpoints or CPU metrics."
+}

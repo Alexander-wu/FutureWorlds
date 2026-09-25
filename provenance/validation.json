@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-24",
+  "scope": "Portable pipeline candidate; local CPU checks and native one-frame audit, not full GPU reproduction",
+  "python": "3.9.6",
+  "versions": {
+    "torch": "2.8.0",
+    "transformers": "4.57.6",
+    "diffusers": "0.35.1",
+    "numpy": "2.0.2"
+  },
+  "tests_run": 19,
+  "tests_passed": 18,
+  "tests_skipped": 1,
+  "skip_reason": "Two-process CPU DDP macOS rendezvous timed out; test retained for Linux",
+  "test_log_sha256": "71fc65a99a9a0a4c1bfa4c40b385d13aff75c27cff73320232dc681892b68482",
+  "checks": [
+    "independent grouped/per-frame/ordinary search and ancestry",
+    "candidate history/scoring and objective gradient",
+    "predictor/adapters roundtrip and checksum guards",
+    "native codec RGB inference and causal two-observation API",
+    "SFT checkpoint interruption/resumption equals uninterrupted weights",
+    "frozen codec cache equals direct encoding and trains successfully",
+    "MemSPO, GRPO, ordinary-beam each update parameters using test-only synthetic perceptual distance",
+    "checkpoint export/repeatability/tamper rejection",
+    "main-table workflow preserves fixed cohorts and Bridge CPU protocol",
+    "offline staging tools"
+  ],
+  "native_checkpoint_audit": "native_pipeline_validation.json",
+  "full_horizon_gpu_regression": false,
+  "full_retraining": false,
+  "clean_docker_build": false,
+  "hf_uploaded": false,
+  "linux_distributed_regression": "passed: two-process CPU SFT, resume, and repeatable checkpoint export",
+  "linux_ci": {
+    "date": "2026-09-25",
+    "commit": "91f9473",
+    "runner": "ubuntu-24.04",
+    "tests_run": 19,
+    "tests_passed": 19,
+    "tests_skipped": 0,
+    "seconds": 20.911,
+    "torch": "2.9.1+cpu",
+    "transformers": "4.57.1",
+    "diffusers": "0.35.2",
+    "numpy": "2.5.2",
+    "log_sha256": "533093c5c268d4b468de9a3bf6bbcdea0dbc6ae3985ff81fd0355124e5a30f30",
+    "scope": "Synthetic CPU integration and two-process DDP, not GPU performance or paper-quality reproduction"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "kind": "provenance_only_not_a_training_config",
+  "source": "tables/main_results_sources.json",
+  "source_sha256": "3e141847f8f7f879782437eb7e76bedee0f1e75aa585920c42ebd0f482b869db",
+  "rows": [
+    {
+      "dataset": "RT-1",
+      "horizon": 32,
+      "stage": "MemSPO",
+      "step": 500,
+      "n": 128,
+      "metrics": {
+        "lpips": 0.15510360306689108,
+        "psnr": 22.46994419512339,
+        "ssim": 0.8025954687473131,
+        "mae": 0.042951646604706184
+      },
+      "text": true,
+      "reward": "R0",
+      "split": "held-out development",
+      "runtime": "GPU FP32",
+      "lpips_relative_reduction_pct": 10.567619130408945
+    },
+    {
+      "dataset": "BridgeV2（非文本）",
+      "horizon": 32,
+      "stage": "MemSPO",
+      "step": 200,
+      "n": 128,
+      "metrics": {
+        "lpips": 0.14085813330439123,
+        "psnr": 22.027612775564194,
+        "ssim": 0.7968007049639709,
+        "mae": 0.04256284834991675
+      },
+      "text": false,
+      "reward": "R1",
+      "split": "held-out development",
+      "runtime": "CPU FP32",
+      "arm": "E4",
+      "lpips_relative_reduction_pct": 2.850114917442448
+    },
+    {
+      "dataset": "RoboCasa",
+      "horizon": 32,
+      "stage": "MemSPO",
+      "step": 400,
+      "n": 128,
+      "metrics": {
+        "mae": 0.06296223547542468,
+        "lpips": 0.1833379602758214,
+        "psnr": 18.471880070865154,
+        "ssim": 0.7659475174732506
+      },
+      "text": true,
+      "reward": "R0",
+      "split": "held-out test",
+      "runtime": "GPU FP32",
+      "lpips_relative_reduction_pct": 6.987531615932674
+    }
+  ]
+}

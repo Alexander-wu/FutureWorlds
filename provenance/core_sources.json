@@ -1,0 +1,92 @@
+[
+  {
+    "module": "memory",
+    "source": "work/futureworlds_code_review_20260920/snapshot/rt1/recap_policy.py",
+    "source_sha256": "f0bcd626b17663a4309bca99f4ed595fed0bb155020e7c343f6de93944928435",
+    "destination": "src/futureworlds/memory.py",
+    "sha256": "55040316c2aca73045e3e37ee63db11e7b3867e5cd1432a5d7a18f7edb3ef2f6",
+    "change": "package-relative imports; formatting and explanatory comments; executable AST preserved",
+    "previous_packaged_sha256": "f0bcd626b17663a4309bca99f4ed595fed0bb155020e7c343f6de93944928435"
+  },
+  {
+    "module": "search",
+    "source": "work/futureworlds_code_review_20260920/snapshot/rt1/group_beam.py",
+    "source_sha256": "77f38cda925122f927a85d7bf032c6289376432297feb9a5d6e598d65a706547",
+    "destination": "src/futureworlds/search.py",
+    "sha256": "2b7fb9ad1e87c7ef6b6c56db90eace0b90396e61c240763b59e7f4fc6df3eab7",
+    "change": "package-relative imports; formatting and explanatory comments; executable AST preserved",
+    "previous_packaged_sha256": "0c93c7965b16948efc00c49f2a8ea9dc1c8b69fff211b83c60f074bfb48d239f"
+  },
+  {
+    "module": "decoding",
+    "source": "work/futureworlds_code_review_20260920/snapshot/rt1/beam_decode.py",
+    "source_sha256": "a73bfbdba950e87c883dc7e4ac9f3b5112a8440459757ed8ec321db30f77f76a",
+    "destination": "src/futureworlds/decoding.py",
+    "sha256": "41440c10b70e3f72b3dddeef1063220d3b98f917a2ad97a94c0c542cae51000f",
+    "change": "package-relative imports; formatting and explanatory comments; executable AST preserved",
+    "previous_packaged_sha256": "a73bfbdba950e87c883dc7e4ac9f3b5112a8440459757ed8ec321db30f77f76a"
+  },
+  {
+    "module": "text_conditioning",
+    "source": "work/futureworlds_code_review_20260920/snapshot/rt1/text_model.py",
+    "source_sha256": "3cf541a82e62b71425a717938a14e22ec1cb1464c2e0b0bfe8656ee772ac21be",
+    "destination": "src/futureworlds/text_conditioning.py",
+    "sha256": "363a5e3d5aeea28adc6ceea30a62653a480b478bca2ef41f3475afcb56555c1b",
+    "change": "package-relative imports; formatting and explanatory comments; executable AST preserved",
+    "previous_packaged_sha256": "3cf541a82e62b71425a717938a14e22ec1cb1464c2e0b0bfe8656ee772ac21be"
+  },
+  {
+    "module": "batch",
+    "source": "work/futureworlds_code_review_20260920/snapshot/rt1/batch.py",
+    "source_sha256": "2c34e3281d3768b4f94aa891c13aaa4a0bc714023861c481ecee4b823b7b1dc3",
+    "destination": "src/futureworlds/batch.py",
+    "sha256": "35c4ffb7f82b3f00b56c8af02bcc8043361035af7892ae001ff2e6a6ef42602c",
+    "change": "package-relative imports; formatting and explanatory comments; executable AST preserved",
+    "previous_packaged_sha256": "2c34e3281d3768b4f94aa891c13aaa4a0bc714023861c481ecee4b823b7b1dc3"
+  },
+  {
+    "module": "objective",
+    "source": "work/futureworlds_code_review_20260920/snapshot/rt1/upstream_core.py",
+    "source_sha256": "5bb3961ec20dfff11fa81bd197ed56fefc472c6140d9f9cb3a8f6e32efeee8a9",
+    "destination": "src/futureworlds/objective.py",
+    "sha256": "b69789b215898d9027f9d482a7f65e2079969bbb49eaa29b368e9a42ee051ecd",
+    "change": "package-relative imports; formatting and explanatory comments; executable AST preserved",
+    "previous_packaged_sha256": "5bb3961ec20dfff11fa81bd197ed56fefc472c6140d9f9cb3a8f6e32efeee8a9"
+  },
+  {
+    "module": "reward_core",
+    "source": "work/futureworlds_code_review_20260920/snapshot/rt1/upstream_reward.py",
+    "source_sha256": "513bdc7541b30cea5c32f3ae805816c3d15da4d08a1bfa91d922d5f57adefe54",
+    "destination": "src/futureworlds/reward_core.py",
+    "sha256": "387f8bca36cf5a748f0a9bb970b88f84389947a6159df3d5dc2f5db79b0b6e22",
+    "change": "Package imports, formatting and implementation of the formerly external optional debug-image helper; reward math unchanged",
+    "previous_packaged_sha256": "ffd67516e4793ff33e4fcf37a54d675bf63402c25aa1ba8a19cc9e40af2d618d"
+  },
+  {
+    "module": "rewards",
+    "source": "work/futureworlds_code_review_20260920/snapshot/rt1/rewards.py",
+    "source_sha256": "35d4b026a94ca543553753253403e55de502a06c4be5f4064fc02dab5035b059",
+    "destination": "src/futureworlds/rewards.py",
+    "sha256": "96f027ebe47d990505acda076d633fd146dbe99a4beb5210fadf7d7d1994e6ff",
+    "change": "Package imports, formatting and explicit 13/52 action-token support for RoboCasa",
+    "previous_packaged_sha256": "7f8d77c6825e67ca14f026066dc5468bc4f07772f8592d3f91a045d8aeb9d087"
+  },
+  {
+    "module": "motion_reward",
+    "source": "work/futureworlds_code_review_20260920/snapshot/bridge/reward_v2.py",
+    "source_sha256": "d5fd6c67112d92d0139eb4e7bebad2ebb78bacf29c50fb02e479df9f405194ec",
+    "destination": "src/futureworlds/motion_reward.py",
+    "sha256": "f5d068c7ef3d68115550f2ae29750d6b61110eaead0d808715afbfa715733df6",
+    "change": "package-relative imports; formatting and explanatory comments; executable AST preserved",
+    "previous_packaged_sha256": "d7846f79904210672c1403cb3c88da93450d5b20b61285d81556943b69da174d"
+  },
+  {
+    "module": "ordinary_search",
+    "source": "work/ordinary_beam_20260922/ordinary_beam.py",
+    "source_sha256": "0f17c00939eeaa18b9e2ea855d5cfd0227ca6b45e7a235f7b15b33e1326fd97e",
+    "destination": "src/futureworlds/ordinary_search.py",
+    "sha256": "fda2539e4d6629921d91f8d50cc08191939f2026f77d7eb8c19776e78713642c",
+    "change": "package-relative imports; formatting and explanatory comments; executable AST preserved",
+    "previous_packaged_sha256": "4a2d154308d29722514dfffd42c38968a73d372b328a5096efad41a5337f9f0a"
+  }
+]

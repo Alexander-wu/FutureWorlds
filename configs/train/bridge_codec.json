@@ -1,0 +1,87 @@
+{
+  "run_root": "/path/to/run_root",
+  "data_root": "/path/to/data_root",
+  "tokenizer": "/path/to/tokenizer",
+  "tokenizer_sha256": "097710453149da3274c1eaf6213f742a93afb0535b02219ddbfb413e2fca87a7",
+  "train_manifest_sha256": "487fbdc77636e4a713069688ebb79ae11213a9d79686662d41ccc60a1e0bf23e",
+  "dev_manifest_sha256": "3a11e426fc4b74d193230fbab6da0aa0fb1048a46594b327da69c4a1438b3a3c",
+  "seed": 20260906,
+  "steps": 60000,
+  "global_batch": 32,
+  "lr": 5e-05,
+  "warmup": 5000,
+  "validate_every": 1000,
+  "short_tolerance": 1.02,
+  "world_size": 16,
+  "objective": "unit L1 and VGG LPIPS for context and dynamics, plus 0.1 adversarial loss; hinge plus GP10 for D",
+  "targets_per_episode": 7,
+  "target_gap_groups": [
+    [
+      1,
+      7
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      8,
+      16
+    ],
+    [
+      8,
+      16
+    ],
+    [
+      17,
+      32
+    ],
+    [
+      17,
+      32
+    ]
+  ],
+  "separate_control_training": false,
+  "discriminator_lr": 5e-05,
+  "discriminator_start": 10000,
+  "gan_weight": 0.1,
+  "gradient_penalty_weight": 10.0,
+  "checkpoint_every": 2000,
+  "training_scope": "full tokenizer; published Bridge warm start",
+  "gradient_checkpointing": true,
+  "precision": "BF16 codec; TF32 enabled for training; FP32 losses and discriminator GP",
+  "counter": "shared G/D counter; 35000 G + 25000 D at60000",
+  "early_stopping": false,
+  "paper_reference": "technical_report.pdf B.6 / Table7, pages21\u201323",
+  "augmentation": {
+    "brightness": [
+      0.9,
+      1.1
+    ],
+    "contrast": [
+      0.9,
+      1.1
+    ],
+    "saturation": [
+      0.9,
+      1.1
+    ],
+    "hue": [
+      -0.05,
+      0.05
+    ],
+    "crop_scale": [
+      0.8,
+      1.0
+    ],
+    "crop_ratio": [
+      1.0,
+      1.4
+    ]
+  },
+  "no_world_model_autostart": true
+}

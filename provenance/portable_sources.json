@@ -1,0 +1,44 @@
+[
+  {
+    "destination": "src/futureworlds/codec/conditional_vae.py",
+    "source": "work/futureworlds_code_review_20260920/snapshot/tokenizer/conditional_vae.py",
+    "source_sha256": "170e88f12b09a22c9732df4ae5f88e94098f4139121a28da7fc90ff92efd85fc",
+    "packaged_sha256": "c1cebeaca4bbd04cfd9c1a10c296f6ddf8ba5aad95446471d5be14e5225c5f60"
+  },
+  {
+    "destination": "src/futureworlds/codec/__init__.py",
+    "source": "work/futureworlds_code_review_20260920/snapshot/tokenizer/__init__.py",
+    "source_sha256": "fa7e4daff1feb059149e2f38972555a95c5c8be404ef3b5cec8580a407220aa5",
+    "packaged_sha256": "fa7e4daff1feb059149e2f38972555a95c5c8be404ef3b5cec8580a407220aa5"
+  },
+  {
+    "destination": "src/futureworlds/codec/compressive_vq_model_fsq.py",
+    "source": "work/futureworlds_code_review_20260920/snapshot/tokenizer/compressive_vq_model_fsq.py",
+    "source_sha256": "68aa9b449242a9c89a54a4c41e829260d3d6fbc571a15028cbdc2aba4bb4602a",
+    "packaged_sha256": "673e2b96686e30b0fade879a5658925971407fd004abcb7c18e8bb42e981c8d6"
+  },
+  {
+    "destination": "src/futureworlds/codec/vae.py",
+    "source": "work/futureworlds_code_review_20260920/snapshot/tokenizer/vae.py",
+    "source_sha256": "bcb49c7a9a4ae451ddd528bbe8e909ca76a42ea51aa416b6a9078556a135b037",
+    "packaged_sha256": "db74bbeec458e4a7bc4e733720b55cb1d1fad268f50101ca25de61a67dbc69a3"
+  },
+  {
+    "destination": "src/futureworlds/codec/finite_scalar_quantize.py",
+    "source": "outputs/token_ar_world/ivideogpt/utils/finite_scalar_quantize.py",
+    "source_sha256": "f9d86618535a0899e081e69319d4a152783f2345480b2a3dbb2005741b099c6a",
+    "packaged_sha256": "546e44b486a21afcb0fba2c7cf4798106da1da0d143e230e24f2ac7084ae1a21"
+  },
+  {
+    "destination": "src/futureworlds/data_readers/rt1.py",
+    "source": "work/futureworlds_code_review_20260920/snapshot/rt1/dataset.py",
+    "source_sha256": "73c971a8c18faad3c86aeef2475c17dd4ce035b3161f0231426ec6f494755d98",
+    "packaged_sha256": "3e24d8a7a295df19fb3deadc5c287c020e06f72b07a22ecc51669fd21083d562"
+  },
+  {
+    "destination": "src/futureworlds/data_readers/robocasa.py",
+    "source": "work/futureworlds_code_review_20260920/snapshot/robocasa_h10/dataset.py",
+    "source_sha256": "6cb7b061829969ccd99e19ef678806fa9448de5429453172a2bd5131c7e921f7",
+    "packaged_sha256": "a4bfacbda3cb591c02f84efed1561bfe2a4ba481880008a57edef42fb4987be2"
+  }
+]
